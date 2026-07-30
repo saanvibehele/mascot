@@ -1,0 +1,89 @@
+{
+  "id": "p_001",
+  "companyName": "DLF Limited",
+  "phase": "Aggressive Expansion",
+  "location": "Gurugram, India",
+  "industryLocation": "Real Estate & Infrastructure",
+  "lastUpdated": "2026-01-21",
+  "aiStrategyBrief": {
+    "confidenceScore": 95,
+    "recommendation": "Pivot to centralized corporate procurement. Pitch high-performance, sustainable, and premium-grade coating solutions as a long-term partner for their Rs 60,000-crore luxury residential pipeline. Emphasize asset longevity and ESG compliance rather than cost-cutting.",
+    "riskFactors": [
+      {
+        "label": "Procurement Centralization",
+        "value": "Merger of 16 subsidiaries may disrupt existing site-level vendor relationships.",
+        "trendIcon": "account_tree",
+        "colorClass": "warning"
+      },
+      {
+        "label": "High-Volume Demand",
+        "value": "Requires capacity to handle massive, multi-year, multi-site project requirements.",
+        "trendIcon": "trending_up",
+        "colorClass": "info"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "id": "SIG-001",
+      "type": "Growth",
+      "icon": "trending_up",
+      "title": "Massive Project Pipeline",
+      "description": "Rs 60,000-crore new residential project launch announced.",
+      "colorClass": "success"
+    },
+    {
+      "id": "SIG-002",
+      "type": "Structural",
+      "icon": "business_center",
+      "title": "Corporate Consolidation",
+      "description": "NCLT approval for merger of 16 subsidiaries centralizing procurement.",
+      "colorClass": "info"
+    }
+  ],
+  "latestNews": [
+    {
+      "headline": "DLF Announces Rs 60,000-Crore Residential Expansion",
+      "summary": "Massive pipeline of luxury villas and high-end apartments.",
+      "details": "The project portfolio requires extensive premium interior and exterior coatings, waterproofing, and specialized finishes.",
+      "source": "Market Intelligence Brief"
+    }
+  ],
+  "financials": {
+    "revenue": "\u20b91,000 Cr+",
+    "profitMargin": "38% YoY growth in net profit",
+    "source": "FY2025-2026 Financial Report"
+  },
+  "previousContracts": [
+    {
+      "projectName": "DLF Privana North",
+      "value": "\u20b911,000 Cr",
+      "source": "Project Bookings Data"
+    },
+    {
+      "projectName": "The Dahlias",
+      "value": "\u20b94,800 Cr",
+      "source": "Project Bookings Data"
+    },
+    {
+      "projectName": "DLF Westpark",
+      "value": "\u20b92,300 Cr",
+      "source": "Project Bookings Data"
+    }
+  ],
+  "latestUpdates": [
+    {
+      "updateText": "NCLT approval received for the merger of 16 wholly-owned subsidiaries into the parent company.",
+      "source": "Corporate Filing"
+    }
+  ],
+  "twitterAnalysis": {
+    "sentimentScore": 85,
+    "trend": "Positive",
+    "recentMentions": [
+      "Strong dividend payout of \u20b98.00 per share",
+      "High investor confidence in luxury real estate segment",
+      "Stable financial outlook for FY2026"
+    ]
+  }
+}

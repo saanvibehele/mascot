@@ -1,0 +1,83 @@
+{
+  "id": "p_005",
+  "companyName": "Tata Projects Limited",
+  "phase": "Prospecting",
+  "location": "Mumbai, India",
+  "industryLocation": "Global EPC Infrastructure",
+  "lastUpdated": "2024-05-22",
+  "aiStrategyBrief": {
+    "confidenceScore": 85,
+    "recommendation": "Adopt an Account-Based Marketing (ABM) approach focusing on technical compliance and sustainability. Position the company as a strategic partner for high-performance protective coatings in energy and transportation infrastructure projects.",
+    "riskFactors": [
+      {
+        "label": "Procurement Complexity",
+        "value": "High barrier to entry for new vendors in large-scale EPC projects.",
+        "trendIcon": "warning",
+        "colorClass": "text-amber-600"
+      },
+      {
+        "label": "Sustainability Standards",
+        "value": "Strict adherence to low-VOC and ESG compliance required.",
+        "trendIcon": "trending_up",
+        "colorClass": "text-green-600"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "id": "SIG-001",
+      "type": "Growth Opportunity",
+      "icon": "business_center",
+      "title": "Energy & Hydrocarbon Expansion",
+      "description": "High demand for anti-corrosive and fire-retardant coatings in refinery and pipeline projects.",
+      "colorClass": "text-blue-600"
+    },
+    {
+      "id": "SIG-002",
+      "type": "Strategic Focus",
+      "icon": "eco",
+      "title": "Sustainability Mandate",
+      "description": "Corporate focus on ESG targets favors vendors with eco-friendly, long-lifecycle coating solutions.",
+      "colorClass": "text-emerald-600"
+    }
+  ],
+  "latestNews": [
+    {
+      "headline": "Tata Projects Strategic Focus on EPC Infrastructure",
+      "summary": "Company is prioritizing high-complexity infrastructure projects including metro rails, bridges, and energy plants.",
+      "details": "Focus on speed, safety, and sustainability in large-scale engineering projects.",
+      "source": "Market Intelligence Report"
+    }
+  ],
+  "financials": {
+    "revenue": "Not publicly disclosed for subsidiary",
+    "profitMargin": "Not publicly disclosed",
+    "source": "Annual Report Pending Review"
+  },
+  "previousContracts": [
+    {
+      "projectName": "Energy Infrastructure EPC",
+      "value": "Confidential",
+      "source": "Corporate Portfolio"
+    },
+    {
+      "projectName": "Urban Transit/Metro Rail",
+      "value": "Confidential",
+      "source": "Corporate Portfolio"
+    }
+  ],
+  "latestUpdates": [
+    {
+      "updateText": "Shift toward sustainable asset protection solutions for industrial EPC projects.",
+      "source": "Industry Analysis"
+    }
+  ],
+  "twitterAnalysis": {
+    "sentimentScore": 75,
+    "trend": "Neutral-Positive",
+    "recentMentions": [
+      "Tata Projects infrastructure excellence",
+      "EPC sector growth in India"
+    ]
+  }
+}

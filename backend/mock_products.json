@@ -1,0 +1,56 @@
+[
+  {
+    "id": "prod_1",
+    "name": "OmniCoat Universal Acrylic Emulsion",
+    "category": "All-Surface Architectural Paint",
+    "description": "Our most popular and versatile interior/exterior emulsion. Designed to adhere to concrete, drywall, wood, and previously painted surfaces with excellent hide and durability.",
+    "key_benefits": [
+      "Extremely broad application (interior and exterior)",
+      "High coverage per liter, highly cost-effective",
+      "Fast drying and easy to apply"
+    ],
+    "target_applications": [
+      "Residential housing projects",
+      "Standard commercial offices",
+      "Retail spaces and shopping malls",
+      "General contractor bulk usage"
+    ],
+    "price_tier": "Value/Mid-Market"
+  },
+  {
+    "id": "prod_2",
+    "name": "DuraFloor Rapid-Cure Epoxy",
+    "category": "Floor Coating",
+    "description": "A heavy-traffic commercial and industrial floor coating that cures in under 12 hours. Slip-resistant and highly durable against vehicle and foot traffic.",
+    "key_benefits": [
+      "Minimal downtime (12-hour cure)",
+      "Resistant to tire marks, spills, and heavy impacts",
+      "Easy to clean and maintain"
+    ],
+    "target_applications": [
+      "Commercial garages and parking structures",
+      "Warehouses and fulfillment centers",
+      "Retail floors and showrooms",
+      "Manufacturing facilities"
+    ],
+    "price_tier": "Mid-Market"
+  },
+  {
+    "id": "prod_3",
+    "name": "SteelGuard Multi-Metal Primer & Finish",
+    "category": "Metal Protection",
+    "description": "A direct-to-metal (DTM) rust-preventative coating that acts as both a primer and a topcoat. Provides long-lasting protection against corrosion in diverse environments.",
+    "key_benefits": [
+      "2-in-1 primer and topcoat (saves labor)",
+      "Strong corrosion and rust resistance",
+      "Bonds to steel, aluminum, and galvanized metal"
+    ],
+    "target_applications": [
+      "Structural steel in new construction",
+      "Fencing and metal roofing",
+      "Industrial machinery and equipment",
+      "Bridges and public infrastructure"
+    ],
+    "price_tier": "Mid-Market"
+  }
+]

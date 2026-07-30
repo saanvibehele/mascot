@@ -1,0 +1,79 @@
+{
+  "id": "p_002",
+  "companyName": "Delhivery",
+  "phase": "Expansion",
+  "location": "Gurugram, India",
+  "industryLocation": "Logistics & Supply Chain",
+  "lastUpdated": "2026-05-22",
+  "aiStrategyBrief": {
+    "confidenceScore": 75,
+    "recommendation": "Target Facilities Management (FM) partners rather than direct procurement. Focus on high-performance industrial flooring and protective coatings for new sorting hubs.",
+    "riskFactors": [
+      {
+        "label": "Operational Reliability",
+        "value": "High risk of supply chain bottlenecks",
+        "trendIcon": "warning",
+        "colorClass": "text-red-600"
+      },
+      {
+        "label": "Market Expansion",
+        "value": "Aggressive infrastructure scaling",
+        "trendIcon": "trending_up",
+        "colorClass": "text-green-600"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "id": "SIG-001",
+      "type": "Growth",
+      "icon": "business_center",
+      "title": "Infrastructure Scaling",
+      "description": "30% YoY revenue growth driving demand for new logistics hubs and facility upgrades.",
+      "colorClass": "text-blue-600"
+    },
+    {
+      "id": "SIG-002",
+      "type": "Risk",
+      "icon": "warning",
+      "title": "Public Sentiment Deficit",
+      "description": "Negative brand sentiment and communication issues may complicate direct B2B engagement.",
+      "colorClass": "text-red-600"
+    }
+  ],
+  "latestNews": [
+    {
+      "headline": "Delhivery Reports 30% Revenue Growth in Q4FY26",
+      "summary": "Company achieves Rs 2,850 crore revenue, signaling massive operational expansion.",
+      "details": "Growth in express parcel volumes necessitates new sorting centers and facility maintenance.",
+      "source": "Market Intelligence Report"
+    }
+  ],
+  "financials": {
+    "revenue": "Rs 2,850 crore (Q4FY26)",
+    "profitMargin": "Not Disclosed",
+    "source": "Quarterly Financial Disclosure"
+  },
+  "previousContracts": [
+    {
+      "projectName": "General Facility Maintenance",
+      "value": "Undisclosed",
+      "source": "Industry Estimates"
+    }
+  ],
+  "latestUpdates": [
+    {
+      "updateText": "Focus on industrial-grade epoxy flooring for high-traffic sorting hubs.",
+      "source": "Sales Strategy Internal"
+    }
+  ],
+  "twitterAnalysis": {
+    "sentimentScore": 20,
+    "trend": "Negative",
+    "recentMentions": [
+      "Delivery delays",
+      "Lack of customer support",
+      "Accountability concerns"
+    ]
+  }
+}

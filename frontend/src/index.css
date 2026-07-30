@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #243A5E;
+  --color-primary-container: #1B2B46;
+  --color-on-primary: #ffffff;
+  --color-primary-fixed: #D9E2F1;
+  --color-on-primary-fixed: #0D1828;
+  --color-secondary: #5F86A6;
+  --color-secondary-container: #8FB6D8;
+  --color-on-secondary-container: #0F1E2C;
+  --color-background: #EDF4FA;
+  --color-on-background: #1A2229;
+  --color-surface: #F5F8FB;
+  --color-on-surface: #1A2229;
+  --color-surface-variant: #DEE4EA;
+  --color-on-surface-variant: #444E58;
+  --color-outline: #747E89;
+  --color-outline-variant: #C4CCD5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #F0F5F9;
+  --color-surface-container: #E6EEF4;
+  --color-surface-container-high: #DEE7EF;
+  --color-surface-container-highest: #D4DFE8;
+  --color-ink-dark: #1A2229;
+  --color-success-green: #00875A;
+  --color-alert-coral: #D32F2F;
+  --color-warning-orange: #E67E22;
+  --color-indigo-depth: #243A5E;
+  --color-tertiary: #5F86A6;
+  --color-tertiary-fixed: #DCE6EF;
+  --color-powder-sky: #CFE3F1;
+
+  --radius-DEFAULT: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+  --radius-2xl: 1rem;
+
+  --spacing-xl: 32px;
+  --spacing-md: 16px;
+  --spacing-sm: 8px;
+  --spacing-xxl: 48px;
+  --spacing-xs: 4px;
+  --spacing-margin-mobile: 16px;
+  --spacing-margin-desktop: 32px;
+  --spacing-lg: 24px;
+  --spacing-gutter: 16px;
+  --spacing-base: 4px;
+
+  --font-data-lg: JetBrains Mono, monospace;
+  --font-body-lg: Inter, sans-serif;
+  --font-display-lg: Inter, sans-serif;
+  --font-body-md: Inter, sans-serif;
+  --font-headline-lg: Inter, sans-serif;
+  --font-body-sm: Inter, sans-serif;
+  --font-headline-md: Inter, sans-serif;
+  --font-label-caps: Inter, sans-serif;
+  --font-data-md: JetBrains Mono, monospace;
+  --font-headline-lg-mobile: Inter, sans-serif;
+  --font-code: Inter, sans-serif;
+  --font-label-md: Inter, sans-serif;
+
+  --text-data-lg: 20px;
+  --text-data-lg--line-height: 24px;
+  --text-data-lg--font-weight: 500;
+  
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+  --text-body-lg--font-weight: 400;
+
+  --text-display-lg: 48px;
+  --text-display-lg--line-height: 56px;
+  --text-display-lg--letter-spacing: -0.02em;
+  --text-display-lg--font-weight: 700;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 24px;
+  --text-body-md--font-weight: 400;
+
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 40px;
+  --text-headline-lg--letter-spacing: -0.01em;
+  --text-headline-lg--font-weight: 600;
+
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: 20px;
+  --text-body-sm--font-weight: 400;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 32px;
+  --text-headline-md--font-weight: 600;
+
+  --text-label-caps: 12px;
+  --text-label-caps--line-height: 16px;
+  --text-label-caps--letter-spacing: 0.05em;
+  --text-label-caps--font-weight: 700;
+
+  --text-data-md: 14px;
+  --text-data-md--line-height: 18px;
+  --text-data-md--font-weight: 500;
+
+  --text-headline-lg-mobile: 24px;
+  --text-headline-lg-mobile--line-height: 32px;
+  --text-headline-lg-mobile--font-weight: 600;
+
+  --text-code: 13px;
+  --text-code--line-height: 18px;
+  --text-code--font-weight: 500;
+
+  --text-label-md: 12px;
+  --text-label-md--line-height: 16px;
+  --text-label-md--letter-spacing: 0.05em;
+  --text-label-md--font-weight: 600;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    font-family: var(--font-body-md);
+    overflow-x: hidden;
+  }
+}
+
+.ai-tint {
+  background: linear-gradient(135deg, rgba(237, 244, 250, 0.9) 0%, rgba(143, 182, 216, 0.2) 100%);
+  border: 1px solid rgba(36, 58, 94, 0.1);
+}
+
+.ripple {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple 0.6s linear;
+  pointer-events: none;
+}
+
+@keyframes ripple {
+  to { transform: scale(4); opacity: 0; }
+}
+
+.circular-progress {
+  background: conic-gradient(var(--color-primary) var(--progress), transparent 0deg);
+}
+
+.ai-glow {
+  box-shadow: 0 0 20px rgba(11, 36, 71, 0.05);
+}

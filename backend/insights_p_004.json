@@ -1,0 +1,77 @@
+{
+  "id": "p_004",
+  "companyName": "Phoenix Mills Ltd.",
+  "phase": "Growth & Expansion",
+  "location": "Mumbai, India",
+  "industryLocation": "Commercial Real Estate & Retail Development",
+  "lastUpdated": "2023-10-24",
+  "aiStrategyBrief": {
+    "confidenceScore": 85,
+    "recommendation": "Prioritize outreach to internal procurement and project management teams. Position services as asset-longevity solutions for high-traffic retail environments to align with their quality-led growth strategy.",
+    "riskFactors": [
+      {
+        "label": "Market Volatility",
+        "value": "5% stock decline despite strong Q1 growth",
+        "trendIcon": "trending_down",
+        "colorClass": "warning"
+      },
+      {
+        "label": "Procurement Complexity",
+        "value": "Bypass public tender boards; focus on internal vendor panels",
+        "trendIcon": "business_center",
+        "colorClass": "info"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "id": "SIG-001",
+      "type": "Growth",
+      "icon": "trending_up",
+      "title": "Strong Financial Performance",
+      "description": "23.2% increase in Q1 net profit indicates high liquidity for premium CapEx projects.",
+      "colorClass": "success"
+    },
+    {
+      "id": "SIG-002",
+      "type": "Expansion",
+      "icon": "apartment",
+      "title": "Sector Rebound",
+      "description": "Real estate sector rally suggests accelerated project timelines for mixed-use developments.",
+      "colorClass": "primary"
+    }
+  ],
+  "latestNews": [
+    {
+      "headline": "Phoenix Mills Benefits from Real Estate Sector Rally",
+      "summary": "Company stock surged 9% in three days, reflecting positive market sentiment and strong pre-sales guidance.",
+      "details": "The shift toward quality-led trades in the Indian real estate market favors developers like Phoenix Mills, increasing demand for premium finishing materials.",
+      "source": "Market Intelligence Report"
+    }
+  ],
+  "financials": {
+    "revenue": "12.8% Growth",
+    "profitMargin": "23.2% Q1 Net Profit Increase",
+    "source": "Corporate Financial Disclosure"
+  },
+  "previousContracts": [
+    {
+      "projectName": "Portfolio-wide Facility Maintenance",
+      "value": "Undisclosed",
+      "source": "Internal Procurement Panel"
+    }
+  ],
+  "latestUpdates": [
+    {
+      "updateText": "Focus on high-durability and sustainable coating solutions for upcoming retail and commercial project completions.",
+      "source": "Strategic Sales Intelligence"
+    }
+  ],
+  "twitterAnalysis": {
+    "sentimentScore": 50,
+    "trend": "Neutral",
+    "recentMentions": [
+      "No direct social media sentiment data available for Phoenix Mills; analysis based on industry-wide real estate trends."
+    ]
+  }
+}

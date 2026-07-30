@@ -1,0 +1,84 @@
+{
+  "id": "p_003",
+  "companyName": "Larsen & Toubro",
+  "phase": "Procurement & Vendor Empanelment",
+  "location": "Mumbai, India",
+  "industryLocation": "Global (Focus: India, NCR, Telangana, Maharashtra, Karnataka)",
+  "lastUpdated": "2026-07-20",
+  "aiStrategyBrief": {
+    "confidenceScore": 92,
+    "recommendation": "Position as a specialized sub-contractor for large-scale EPC projects. Focus on technical compliance, sustainability (Low-VOC), and high-volume delivery capabilities for residential and industrial infrastructure.",
+    "riskFactors": [
+      {
+        "label": "Market Sentiment",
+        "value": "Bearish",
+        "trendIcon": "trending_down",
+        "colorClass": "text-red-600"
+      },
+      {
+        "label": "Procurement Cycle",
+        "value": "Extended",
+        "trendIcon": "schedule",
+        "colorClass": "text-amber-600"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "id": "SIG-001",
+      "type": "Growth",
+      "icon": "trending_up",
+      "title": "Record Order Book",
+      "description": "Order book nearing \u20b97.8 lakh crore, driving massive demand for industrial and protective coatings.",
+      "colorClass": "text-green-600"
+    },
+    {
+      "id": "SIG-002",
+      "type": "Expansion",
+      "icon": "business_center",
+      "title": "Realty Expansion",
+      "description": "\u20b94,400 crore realty expansion plan targeting NCR and Southern India residential markets.",
+      "colorClass": "text-blue-600"
+    }
+  ],
+  "latestNews": [
+    {
+      "headline": "L&T Realty Targets 25% Annual Growth",
+      "summary": "Aggressive capital deployment in residential sectors across Telangana, Maharashtra, and Karnataka.",
+      "details": "L&T is securing large-scale residential contracts requiring high-durability exterior and interior coating solutions.",
+      "source": "Market Intelligence Brief July 2026"
+    }
+  ],
+  "financials": {
+    "revenue": "Strong Growth",
+    "profitMargin": "14% YoY Increase in PAT",
+    "source": "Q1 FY27 Financial Report"
+  },
+  "previousContracts": [
+    {
+      "projectName": "Industrial Infrastructure EPC",
+      "value": "\u20b937,500 - 55,000 crore",
+      "source": "Internal Market Data"
+    },
+    {
+      "projectName": "Residential Real Estate Expansion",
+      "value": "\u20b92,500 - 5,000 crore",
+      "source": "Internal Market Data"
+    }
+  ],
+  "latestUpdates": [
+    {
+      "updateText": "Shift toward organized real estate market requires standardized, sustainable, and high-quality supply chain partners.",
+      "source": "Strategic Procurement Analysis"
+    }
+  ],
+  "twitterAnalysis": {
+    "sentimentScore": 45,
+    "trend": "Neutral/Cautious",
+    "recentMentions": [
+      "L&T infrastructure project updates",
+      "EPC sector consolidation",
+      "Institutional investor sentiment"
+    ]
+  }
+}
