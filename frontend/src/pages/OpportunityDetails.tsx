@@ -193,8 +193,28 @@ export default function OpportunityDetails() {
                     </section>
                 </div>
 
-                {/* Financials and Twitter Sentiment (6 columns) */}
+                {/* Vision, Financials, and Twitter Sentiment (6 columns) */}
                 <div className="col-span-12 lg:col-span-6 space-y-lg flex flex-col">
+                    {/* Vision & Strategy */}
+                    <div className="bg-surface-container-low rounded-xl p-lg border border-outline-variant flex-1">
+                        <div className="flex items-center gap-xs mb-md">
+                            <span className="material-symbols-outlined text-primary">
+                                lightbulb
+                            </span>
+                            <h5 className="font-label-caps text-label-caps uppercase">
+                                Vision & Strategy
+                            </h5>
+                        </div>
+                        <div className="flex flex-col gap-sm">
+                            <p className="font-body-md text-ink-dark leading-relaxed">
+                                "{data.visionStrategy.statement}"
+                            </p>
+                            <p className="text-[12px] text-on-surface-variant font-bold uppercase tracking-wider">
+                                — {data.visionStrategy.attribution}
+                            </p>
+                        </div>
+                    </div>
+
                     <div className="bg-surface-container-low rounded-xl p-lg border border-outline-variant flex-1">
                         <div className="flex items-center gap-xs mb-md">
                             <span className="material-symbols-outlined text-primary">

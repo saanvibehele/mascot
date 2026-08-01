@@ -13,6 +13,10 @@ class AIStrategyBrief(BaseModel):
     riskFactors: List[RiskFactor]
 
 
+class VisionStrategy(BaseModel):
+    statement: str
+    attribution: str
+
 class Signal(BaseModel):
     id: str
     type: str
@@ -55,6 +59,7 @@ class OpportunityData(BaseModel):
     industryLocation: str
     lastUpdated: str
     
+    visionStrategy: VisionStrategy
     aiStrategyBrief: AIStrategyBrief
     
     signals: List[Signal]

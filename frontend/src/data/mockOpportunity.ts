@@ -18,6 +18,11 @@ export interface AIStrategyBrief {
     }[];
 }
 
+export interface VisionStrategy {
+    statement: string;
+    attribution: string;
+}
+
 export interface Signal {
     id: string;
     type: string;
@@ -60,6 +65,7 @@ export interface OpportunityData {
     industryLocation: string; // Location of industry/office
     lastUpdated: string;
 
+    visionStrategy: VisionStrategy;
     aiStrategyBrief: AIStrategyBrief;
 
     signals: Signal[];
@@ -82,10 +88,14 @@ export const mockOpportunityData: OpportunityData = {
     location: "Upper Worli, Mumbai",
     industryLocation: "Lower Parel, Mumbai (HQ)",
     lastUpdated: "Updated 2 hours ago",
+    visionStrategy: {
+        statement: "Sustainability-first expansion across South India, focusing on green building certifications and long-term asset durability for luxury residential segments.",
+        attribution: "Lodha Group 2025 Vision Statement"
+    },
     aiStrategyBrief: {
         confidenceScore: 94,
         recommendation:
-            "Prioritize WeatherShield Ultra due to forecasted monsoon intensity in Worli. Competitor AkzoNobel is struggling with inventory on high-durability primers. Emphasize logistics speed.",
+            "Prioritize WeatherShield Ultra due to forecasted monsoon intensity in Worli. Competitor AkzoNobel is struggling with inventory on high-durability primers. Emphasize logistics speed. Additionally, recent developments indicate a strong preference for green building certifications, so position the eco-friendly sealants as a core value proposition. Ensure that the sales team highlights the long-term asset durability and reduced maintenance costs associated with our premium tier products. Early engagement with the project architects could yield a significant competitive advantage.",
         riskFactors: [
             {
                 label: "Humidity Risk",

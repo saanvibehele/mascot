@@ -1,83 +1,83 @@
 {
   "id": "p_005",
-  "companyName": "Tata Projects Limited",
-  "phase": "Prospecting",
+  "companyName": "Tata Projects",
+  "phase": "Growth & Diversification",
   "location": "Mumbai, India",
-  "industryLocation": "Global EPC Infrastructure",
+  "industryLocation": "Global EPC & Infrastructure",
   "lastUpdated": "2024-05-22",
+  "visionStrategy": {
+    "statement": "Delivering complex infrastructure projects safely, on time, and with high quality while navigating economic headwinds through value-engineering partnerships.",
+    "attribution": "Corporate Operational Mandate"
+  },
   "aiStrategyBrief": {
     "confidenceScore": 85,
-    "recommendation": "Adopt an Account-Based Marketing (ABM) approach focusing on technical compliance and sustainability. Position the company as a strategic partner for high-performance protective coatings in energy and transportation infrastructure projects.",
+    "recommendation": "Position as a 'Value-Engineering Partner' focusing on TCO (Total Cost of Ownership) and safety compliance. Target procurement leads for the Godrej Golf Course Road luxury project and the new Bangalore senior living facility.",
     "riskFactors": [
       {
-        "label": "Procurement Complexity",
-        "value": "High barrier to entry for new vendors in large-scale EPC projects.",
-        "trendIcon": "warning",
-        "colorClass": "text-amber-600"
+        "label": "Cost Sensitivity",
+        "value": "High",
+        "trendIcon": "trending_up",
+        "colorClass": "text-red-600"
       },
       {
-        "label": "Sustainability Standards",
-        "value": "Strict adherence to low-VOC and ESG compliance required.",
-        "trendIcon": "trending_up",
-        "colorClass": "text-green-600"
+        "label": "Operational Pressure",
+        "value": "High",
+        "trendIcon": "warning",
+        "colorClass": "text-amber-600"
       }
     ]
   },
   "signals": [
     {
       "id": "SIG-001",
-      "type": "Growth Opportunity",
+      "type": "Opportunity",
       "icon": "business_center",
-      "title": "Energy & Hydrocarbon Expansion",
-      "description": "High demand for anti-corrosive and fire-retardant coatings in refinery and pipeline projects.",
-      "colorClass": "text-blue-600"
+      "title": "Luxury Residential Expansion",
+      "description": "\u20b91,100 crore contract with Godrej Properties for luxury developments in Gurugram.",
+      "colorClass": "text-green-600"
     },
     {
       "id": "SIG-002",
-      "type": "Strategic Focus",
-      "icon": "eco",
-      "title": "Sustainability Mandate",
-      "description": "Corporate focus on ESG targets favors vendors with eco-friendly, long-lifecycle coating solutions.",
-      "colorClass": "text-emerald-600"
+      "type": "Niche Market",
+      "icon": "health_and_safety",
+      "title": "Senior Living Entry",
+      "description": "New foray into senior living in Bangalore requiring specialized low-VOC and anti-microbial coatings.",
+      "colorClass": "text-blue-600"
     }
   ],
   "latestNews": [
     {
-      "headline": "Tata Projects Strategic Focus on EPC Infrastructure",
-      "summary": "Company is prioritizing high-complexity infrastructure projects including metro rails, bridges, and energy plants.",
-      "details": "Focus on speed, safety, and sustainability in large-scale engineering projects.",
-      "source": "Market Intelligence Report"
+      "headline": "Tata Projects Secures \u20b91,100 Crore Godrej Contract",
+      "summary": "Tata Projects awarded core and shell construction for luxury residential projects in Gurugram.",
+      "details": "The project involves high-end residential infrastructure, creating demand for premium exterior and architectural coatings.",
+      "source": "Industry Market Reports"
     }
   ],
   "financials": {
-    "revenue": "Not publicly disclosed for subsidiary",
-    "profitMargin": "Not publicly disclosed",
-    "source": "Annual Report Pending Review"
+    "revenue": "Not Disclosed",
+    "profitMargin": "Not Disclosed",
+    "source": "Public Financial Records"
   },
   "previousContracts": [
     {
-      "projectName": "Energy Infrastructure EPC",
-      "value": "Confidential",
-      "source": "Corporate Portfolio"
-    },
-    {
-      "projectName": "Urban Transit/Metro Rail",
-      "value": "Confidential",
-      "source": "Corporate Portfolio"
+      "projectName": "Godrej Properties Luxury Residential",
+      "value": "\u20b91,100 Crore",
+      "source": "Market Intelligence"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Shift toward sustainable asset protection solutions for industrial EPC projects.",
-      "source": "Industry Analysis"
+      "updateText": "Focus shifting toward high-margin, high-value partnerships to mitigate rising construction costs.",
+      "source": "Tata Realty Executive Briefing"
     }
   ],
   "twitterAnalysis": {
     "sentimentScore": 75,
-    "trend": "Neutral-Positive",
+    "trend": "stable",
     "recentMentions": [
-      "Tata Projects infrastructure excellence",
-      "EPC sector growth in India"
+      "Tata Projects reputation for safety",
+      "Infrastructure project delivery excellence",
+      "Corporate stability in EPC sector"
     ]
   }
 }

@@ -1,84 +1,88 @@
 {
   "id": "p_003",
   "companyName": "Larsen & Toubro",
-  "phase": "Procurement & Vendor Empanelment",
+  "phase": "Procurement & Mobilization",
   "location": "Mumbai, India",
-  "industryLocation": "Global (Focus: India, NCR, Telangana, Maharashtra, Karnataka)",
-  "lastUpdated": "2026-07-20",
+  "industryLocation": "Global Engineering & Construction",
+  "lastUpdated": "2026-08-01",
+  "visionStrategy": {
+    "statement": "Commitment to carbon neutrality and sustainable infrastructure development through high-performance engineering.",
+    "attribution": "L&T Corporate Sustainability Mandate"
+  },
   "aiStrategyBrief": {
     "confidenceScore": 92,
-    "recommendation": "Position as a specialized sub-contractor for large-scale EPC projects. Focus on technical compliance, sustainability (Low-VOC), and high-volume delivery capabilities for residential and industrial infrastructure.",
+    "recommendation": "Target the Buildings & Factories (B&F) division with a focus on precast-compatible, low-VOC coatings. Position as a strategic partner for large-scale residential and luxury projects to align with their current high-velocity project pipeline.",
     "riskFactors": [
       {
-        "label": "Market Sentiment",
-        "value": "Bearish",
-        "trendIcon": "trending_down",
-        "colorClass": "text-red-600"
+        "label": "Procurement Complexity",
+        "value": "Centralized, high-barrier entry",
+        "trendIcon": "business_center",
+        "colorClass": "text-amber-600"
       },
       {
-        "label": "Procurement Cycle",
-        "value": "Extended",
-        "trendIcon": "schedule",
-        "colorClass": "text-amber-600"
+        "label": "Internal Culture",
+        "value": "Rigid, hierarchical management",
+        "trendIcon": "warning",
+        "colorClass": "text-red-600"
       }
     ]
   },
   "signals": [
     {
       "id": "SIG-001",
-      "type": "Growth",
+      "type": "Opportunity",
       "icon": "trending_up",
-      "title": "Record Order Book",
-      "description": "Order book nearing \u20b97.8 lakh crore, driving massive demand for industrial and protective coatings.",
+      "title": "High-Rise Project Pipeline",
+      "description": "Massive demand for protective coatings across 36+ new high-rise towers in Mumbai and Hyderabad.",
       "colorClass": "text-green-600"
     },
     {
       "id": "SIG-002",
-      "type": "Expansion",
-      "icon": "business_center",
-      "title": "Realty Expansion",
-      "description": "\u20b94,400 crore realty expansion plan targeting NCR and Southern India residential markets.",
-      "colorClass": "text-blue-600"
+      "type": "Sustainability",
+      "icon": "eco",
+      "title": "Carbon Neutrality Mandate",
+      "description": "Strong preference for low-VOC and energy-efficient coating solutions to meet corporate sustainability goals.",
+      "colorClass": "text-emerald-600"
     }
   ],
   "latestNews": [
     {
-      "headline": "L&T Realty Targets 25% Annual Growth",
-      "summary": "Aggressive capital deployment in residential sectors across Telangana, Maharashtra, and Karnataka.",
-      "details": "L&T is securing large-scale residential contracts requiring high-durability exterior and interior coating solutions.",
-      "source": "Market Intelligence Brief July 2026"
+      "headline": "L&T Secures Major Mumbai High-Rise Redevelopment",
+      "summary": "L&T awarded contract for 26 high-rise towers in Worli, Mumbai.",
+      "details": "Project utilizes advanced precast construction, requiring specialized primers and weather-resistant exterior coatings.",
+      "source": "Industry Project Briefing"
     }
   ],
   "financials": {
-    "revenue": "Strong Growth",
-    "profitMargin": "14% YoY Increase in PAT",
-    "source": "Q1 FY27 Financial Report"
+    "revenue": "\u20b92,916.2 billion",
+    "profitMargin": "PBDIT-focused reporting",
+    "source": "L&T Financial Disclosure"
   },
   "previousContracts": [
     {
-      "projectName": "Industrial Infrastructure EPC",
-      "value": "\u20b937,500 - 55,000 crore",
-      "source": "Internal Market Data"
+      "projectName": "Mumbai Worli Redevelopment",
+      "value": "Large-Scale Infrastructure",
+      "source": "Internal Project Pipeline"
     },
     {
-      "projectName": "Residential Real Estate Expansion",
-      "value": "\u20b92,500 - 5,000 crore",
-      "source": "Internal Market Data"
+      "projectName": "Hyderabad High-Rise Expansion",
+      "value": "10-Tower Development",
+      "source": "Internal Project Pipeline"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Shift toward organized real estate market requires standardized, sustainable, and high-quality supply chain partners.",
-      "source": "Strategic Procurement Analysis"
+      "updateText": "Critical window for procurement engagement for finishing packages on 2026 project wins.",
+      "source": "Sales Intelligence Brief"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 45,
-    "trend": "Neutral/Cautious",
+    "sentimentScore": 65,
+    "trend": "Stable but demanding",
     "recentMentions": [
-      "L&T infrastructure project updates",
-      "EPC sector consolidation",
-      "Institutional investor sentiment"
+      "L&T job security",
+      "Engineering career foundation",
+      "Work-life balance concerns"
     ]
   }
 }

@@ -1,25 +1,29 @@
 {
   "id": "p_001",
   "companyName": "DLF Limited",
-  "phase": "Aggressive Expansion",
+  "phase": "Expansion & Development",
   "location": "Gurugram, India",
-  "industryLocation": "Real Estate & Infrastructure",
-  "lastUpdated": "2026-01-21",
+  "industryLocation": "Real Estate & Commercial Infrastructure",
+  "lastUpdated": "2025-05-20",
+  "visionStrategy": {
+    "statement": "Achieving debt-free development status while scaling a 25 million sq. ft. project pipeline to reach an exit rental income of INR 8,200 crore by FY27.",
+    "attribution": "DLF Investor Relations & FY25 Annual Report"
+  },
   "aiStrategyBrief": {
-    "confidenceScore": 95,
-    "recommendation": "Pivot to centralized corporate procurement. Pitch high-performance, sustainable, and premium-grade coating solutions as a long-term partner for their Rs 60,000-crore luxury residential pipeline. Emphasize asset longevity and ESG compliance rather than cost-cutting.",
+    "confidenceScore": 88,
+    "recommendation": "Initiate contact with procurement and project management teams for vendor empanelment. Focus on high-durability, sustainable coating solutions for the upcoming 25 million sq. ft. pipeline, emphasizing reliability to mitigate internal operational friction.",
     "riskFactors": [
       {
-        "label": "Procurement Centralization",
-        "value": "Merger of 16 subsidiaries may disrupt existing site-level vendor relationships.",
-        "trendIcon": "account_tree",
-        "colorClass": "warning"
+        "label": "Operational Friction",
+        "value": "Internal communication bottlenecks and project delays",
+        "trendIcon": "warning",
+        "colorClass": "text-amber-600"
       },
       {
-        "label": "High-Volume Demand",
-        "value": "Requires capacity to handle massive, multi-year, multi-site project requirements.",
-        "trendIcon": "trending_up",
-        "colorClass": "info"
+        "label": "Market Volatility",
+        "value": "Sensitivity to real estate market fluctuations",
+        "trendIcon": "trending_down",
+        "colorClass": "text-red-600"
       }
     ]
   },
@@ -28,62 +32,52 @@
       "id": "SIG-001",
       "type": "Growth",
       "icon": "trending_up",
-      "title": "Massive Project Pipeline",
-      "description": "Rs 60,000-crore new residential project launch announced.",
-      "colorClass": "success"
+      "title": "Massive Development Pipeline",
+      "description": "25 million sq. ft. of new space planned for medium-term launch.",
+      "colorClass": "text-green-600"
     },
     {
       "id": "SIG-002",
-      "type": "Structural",
-      "icon": "business_center",
-      "title": "Corporate Consolidation",
-      "description": "NCLT approval for merger of 16 subsidiaries centralizing procurement.",
-      "colorClass": "info"
+      "type": "Financial",
+      "icon": "account_balance",
+      "title": "Strong Profitability",
+      "description": "Net profits rose 42.8% to \u20b94,367 crore in FY25.",
+      "colorClass": "text-blue-600"
     }
   ],
   "latestNews": [
     {
-      "headline": "DLF Announces Rs 60,000-Crore Residential Expansion",
-      "summary": "Massive pipeline of luxury villas and high-end apartments.",
-      "details": "The project portfolio requires extensive premium interior and exterior coatings, waterproofing, and specialized finishes.",
-      "source": "Market Intelligence Brief"
+      "headline": "DLF Targets Rs 20,000 Crore Sales Guidance for FY27",
+      "summary": "Aggressive sales targets indicate sustained construction activity.",
+      "details": "The company has a total sales potential of Rs 60,215 crore from its upcoming project pipeline, requiring consistent supply chain support.",
+      "source": "Investor Zone / Corporate Announcements"
     }
   ],
   "financials": {
-    "revenue": "\u20b91,000 Cr+",
-    "profitMargin": "38% YoY growth in net profit",
-    "source": "FY2025-2026 Financial Report"
+    "revenue": "\u20b98,996 crore",
+    "profitMargin": "42.8% growth",
+    "source": "FY25 Financial Report"
   },
   "previousContracts": [
     {
-      "projectName": "DLF Privana North",
-      "value": "\u20b911,000 Cr",
-      "source": "Project Bookings Data"
-    },
-    {
-      "projectName": "The Dahlias",
-      "value": "\u20b94,800 Cr",
-      "source": "Project Bookings Data"
-    },
-    {
-      "projectName": "DLF Westpark",
-      "value": "\u20b92,300 Cr",
-      "source": "Project Bookings Data"
+      "projectName": "Commercial Asset Maintenance Portfolio",
+      "value": "High-Value Recurring",
+      "source": "Facility Management Procurement"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "NCLT approval received for the merger of 16 wholly-owned subsidiaries into the parent company.",
-      "source": "Corporate Filing"
+      "updateText": "Focus on ESG standards and sustainable product lines for upcoming commercial developments.",
+      "source": "Strategic Market Intelligence"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 85,
-    "trend": "Positive",
+    "sentimentScore": 62,
+    "trend": "Neutral-Positive",
     "recentMentions": [
-      "Strong dividend payout of \u20b98.00 per share",
-      "High investor confidence in luxury real estate segment",
-      "Stable financial outlook for FY2026"
+      "DLF expansion plans",
+      "Commercial real estate demand",
+      "Project delivery timelines"
     ]
   }
 }

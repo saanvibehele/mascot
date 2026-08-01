@@ -1,25 +1,29 @@
 {
   "id": "p_004",
-  "companyName": "Phoenix Mills Ltd.",
+  "companyName": "Phoenix Mills",
   "phase": "Growth & Expansion",
   "location": "Mumbai, India",
-  "industryLocation": "Commercial Real Estate & Retail Development",
-  "lastUpdated": "2023-10-24",
+  "industryLocation": "Commercial Real Estate & Retail",
+  "lastUpdated": "2026-07-24",
+  "visionStrategy": {
+    "statement": "Transitioning from traditional retail to experiential destinations, focusing on high-engagement, premium physical environments.",
+    "attribution": "Corporate Strategic Outlook"
+  },
   "aiStrategyBrief": {
-    "confidenceScore": 85,
-    "recommendation": "Prioritize outreach to internal procurement and project management teams. Position services as asset-longevity solutions for high-traffic retail environments to align with their quality-led growth strategy.",
+    "confidenceScore": 92,
+    "recommendation": "Bypass public tenders; initiate direct B2B outreach to facilities management. Pitch 'Experience Enhancement' and 'Life-Cycle Cost Reduction' rather than basic maintenance to align with their premium experiential retail model.",
     "riskFactors": [
       {
         "label": "Market Volatility",
-        "value": "5% stock decline despite strong Q1 growth",
+        "value": "5% stock decline post-earnings",
         "trendIcon": "trending_down",
-        "colorClass": "warning"
+        "colorClass": "text-warning"
       },
       {
         "label": "Procurement Complexity",
-        "value": "Bypass public tender boards; focus on internal vendor panels",
-        "trendIcon": "business_center",
-        "colorClass": "info"
+        "value": "Avoid RERA-linked public tenders",
+        "trendIcon": "warning",
+        "colorClass": "text-danger"
       }
     ]
   },
@@ -29,49 +33,51 @@
       "type": "Growth",
       "icon": "trending_up",
       "title": "Strong Financial Performance",
-      "description": "23.2% increase in Q1 net profit indicates high liquidity for premium CapEx projects.",
-      "colorClass": "success"
+      "description": "23.2% Q1 net profit growth indicates high liquidity for facility CapEx.",
+      "colorClass": "text-success"
     },
     {
       "id": "SIG-002",
       "type": "Expansion",
-      "icon": "apartment",
-      "title": "Sector Rebound",
-      "description": "Real estate sector rally suggests accelerated project timelines for mixed-use developments.",
-      "colorClass": "primary"
+      "icon": "business_center",
+      "title": "Thane Corridor Development",
+      "description": "Aggressive expansion in Thane retail hubs creates immediate demand for architectural coatings.",
+      "colorClass": "text-primary"
     }
   ],
   "latestNews": [
     {
-      "headline": "Phoenix Mills Benefits from Real Estate Sector Rally",
-      "summary": "Company stock surged 9% in three days, reflecting positive market sentiment and strong pre-sales guidance.",
-      "details": "The shift toward quality-led trades in the Indian real estate market favors developers like Phoenix Mills, increasing demand for premium finishing materials.",
-      "source": "Market Intelligence Report"
+      "headline": "Q1 FY27 Financial Disclosure Scheduled",
+      "summary": "Board meeting set for July 28, 2026, to review quarterly results.",
+      "details": "Post-earnings investor deck will reveal project completion timelines and specific CapEx allocations for new malls.",
+      "source": "BSE Filing"
     }
   ],
   "financials": {
     "revenue": "12.8% Growth",
     "profitMargin": "23.2% Q1 Net Profit Increase",
-    "source": "Corporate Financial Disclosure"
+    "source": "Q1 Financial Report"
   },
   "previousContracts": [
     {
-      "projectName": "Portfolio-wide Facility Maintenance",
-      "value": "Undisclosed",
-      "source": "Internal Procurement Panel"
+      "projectName": "Phoenix Marketcity Portfolio Maintenance",
+      "value": "Confidential",
+      "source": "Internal Market Intelligence"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Focus on high-durability and sustainable coating solutions for upcoming retail and commercial project completions.",
-      "source": "Strategic Sales Intelligence"
+      "updateText": "Focus outreach on project managers of sites nearing completion post-July 28th earnings call.",
+      "source": "Sales Intelligence Agent"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 50,
-    "trend": "Neutral",
+    "sentimentScore": 75,
+    "trend": "Constructive",
     "recentMentions": [
-      "No direct social media sentiment data available for Phoenix Mills; analysis based on industry-wide real estate trends."
+      "Phoenix Shopping League",
+      "Experiential Retail",
+      "Premium Asset Management"
     ]
   }
 }

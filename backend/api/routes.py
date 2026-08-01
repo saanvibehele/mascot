@@ -18,9 +18,13 @@ MOCK_OPPORTUNITY = {
   "location": "Mumbai, MH",
   "industryLocation": "Commercial Real Estate",
   "lastUpdated": "2 hours ago",
+  "visionStrategy": {
+      "statement": "Sustainability-first expansion across South India, focusing on green building certifications and long-term asset durability for luxury residential segments.",
+      "attribution": "Lodha Group 2025 Vision Statement"
+  },
   "aiStrategyBrief": {
     "confidenceScore": 88,
-    "recommendation": "Pitch premium exterior emulsions immediately. The client has a history of prioritizing durability over cost for coastal projects. Highlight the 10-year weather protection warranty of our new APEX line.",
+    "recommendation": "Pitch premium exterior emulsions immediately. The client has a history of prioritizing durability over cost for coastal projects. Highlight the 10-year weather protection warranty of our new APEX line. Additionally, recent developments indicate a strong preference for green building certifications, so position the eco-friendly sealants as a core value proposition. Ensure that the sales team highlights the long-term asset durability and reduced maintenance costs associated with our premium tier products. Early engagement with the project architects could yield a significant competitive advantage.",
     "riskFactors": [
       { "label": "Price Sensitivity", "value": "Low", "trendIcon": "trending_down", "colorClass": "text-success-green" },
       { "label": "Competitor Threat", "value": "High", "trendIcon": "trending_up", "colorClass": "text-warning-orange" },

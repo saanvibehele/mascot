@@ -1,25 +1,29 @@
 {
   "id": "p_002",
   "companyName": "Delhivery",
-  "phase": "Expansion",
+  "phase": "Growth & Infrastructure Expansion",
   "location": "Gurugram, India",
   "industryLocation": "Logistics & Supply Chain",
-  "lastUpdated": "2026-05-22",
+  "lastUpdated": "2026-05-20",
+  "visionStrategy": {
+    "statement": "Aggressive scaling of logistics infrastructure and AI-powered fulfillment networks to support e-commerce growth.",
+    "attribution": "Delhivery FY26 Q4 Financial Report"
+  },
   "aiStrategyBrief": {
     "confidenceScore": 75,
-    "recommendation": "Target Facilities Management (FM) partners rather than direct procurement. Focus on high-performance industrial flooring and protective coatings for new sorting hubs.",
+    "recommendation": "Target procurement teams for high-traffic warehouse flooring and protective coating maintenance contracts. Focus on durability to lower OPEX.",
     "riskFactors": [
       {
-        "label": "Operational Reliability",
-        "value": "High risk of supply chain bottlenecks",
+        "label": "Operational Reputation",
+        "value": "High negative sentiment regarding reliability",
         "trendIcon": "warning",
         "colorClass": "text-red-600"
       },
       {
-        "label": "Market Expansion",
-        "value": "Aggressive infrastructure scaling",
-        "trendIcon": "trending_up",
-        "colorClass": "text-green-600"
+        "label": "Profitability Pressure",
+        "value": "Flat net profit despite revenue growth",
+        "trendIcon": "trending_flat",
+        "colorClass": "text-yellow-600"
       }
     ]
   },
@@ -27,53 +31,53 @@
     {
       "id": "SIG-001",
       "type": "Growth",
-      "icon": "business_center",
-      "title": "Infrastructure Scaling",
-      "description": "30% YoY revenue growth driving demand for new logistics hubs and facility upgrades.",
-      "colorClass": "text-blue-600"
+      "icon": "trending_up",
+      "title": "30% Revenue Growth",
+      "description": "Significant top-line expansion driving demand for new warehouse infrastructure and facility maintenance.",
+      "colorClass": "text-green-600"
     },
     {
       "id": "SIG-002",
-      "type": "Risk",
-      "icon": "warning",
-      "title": "Public Sentiment Deficit",
-      "description": "Negative brand sentiment and communication issues may complicate direct B2B engagement.",
-      "colorClass": "text-red-600"
+      "type": "Operational",
+      "icon": "business_center",
+      "title": "Franchise Model Expansion",
+      "description": "Decentralized network of hubs creates recurring demand for standardized branding and maintenance services.",
+      "colorClass": "text-blue-600"
     }
   ],
   "latestNews": [
     {
-      "headline": "Delhivery Reports 30% Revenue Growth in Q4FY26",
-      "summary": "Company achieves Rs 2,850 crore revenue, signaling massive operational expansion.",
-      "details": "Growth in express parcel volumes necessitates new sorting centers and facility maintenance.",
-      "source": "Market Intelligence Report"
+      "headline": "Delhivery Achieves Free Cash Flow Positive Status",
+      "summary": "Company reports strong financial health with \u20b9152.5 Crore annual profit for FY26.",
+      "details": "Rapid scaling of express parcel volumes and infrastructure integration continues to drive market position.",
+      "source": "Financial Intelligence Report"
     }
   ],
   "financials": {
-    "revenue": "Rs 2,850 crore (Q4FY26)",
-    "profitMargin": "Not Disclosed",
-    "source": "Quarterly Financial Disclosure"
+    "revenue": "\u20b92,850 Crore",
+    "profitMargin": "5.3%",
+    "source": "FY26 Q4 Financial Summary"
   },
   "previousContracts": [
     {
-      "projectName": "General Facility Maintenance",
-      "value": "Undisclosed",
-      "source": "Industry Estimates"
+      "projectName": "National Warehouse Network Maintenance",
+      "value": "Enterprise Scale",
+      "source": "Internal Market Analysis"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Focus on industrial-grade epoxy flooring for high-traffic sorting hubs.",
-      "source": "Sales Strategy Internal"
+      "updateText": "Focus on high-traffic epoxy flooring and anti-corrosive structural coatings for new distribution centers.",
+      "source": "Sales Strategy Recommendation"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 20,
+    "sentimentScore": 15,
     "trend": "Negative",
     "recentMentions": [
       "Delivery delays",
-      "Lack of customer support",
-      "Accountability concerns"
+      "Poor customer support",
+      "Lack of accountability"
     ]
   }
 }
