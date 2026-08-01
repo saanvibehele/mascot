@@ -1,83 +1,83 @@
 {
   "id": "p_005",
-  "companyName": "Tata Projects",
-  "phase": "Growth & Diversification",
+  "companyName": "Tata Projects Limited",
+  "phase": "Growth & Portfolio Optimization",
   "location": "Mumbai, India",
   "industryLocation": "Global EPC & Infrastructure",
-  "lastUpdated": "2024-05-22",
+  "lastUpdated": "2025-05-22",
   "visionStrategy": {
-    "statement": "Delivering complex infrastructure projects safely, on time, and with high quality while navigating economic headwinds through value-engineering partnerships.",
-    "attribution": "Corporate Operational Mandate"
+    "statement": "Pivoting portfolio toward higher-margin, profitable segments with a focus on speed, safety, and sustainability.",
+    "attribution": "Vinayak Pai, CEO"
   },
   "aiStrategyBrief": {
-    "confidenceScore": 85,
-    "recommendation": "Position as a 'Value-Engineering Partner' focusing on TCO (Total Cost of Ownership) and safety compliance. Target procurement leads for the Godrej Golf Course Road luxury project and the new Bangalore senior living facility.",
+    "confidenceScore": 92,
+    "recommendation": "Target procurement teams for the Energy and Industrial divisions. Position as a sustainability-focused partner offering low-VOC, high-durability coating solutions to reduce long-term maintenance costs.",
     "riskFactors": [
       {
-        "label": "Cost Sensitivity",
+        "label": "Procurement Rigor",
         "value": "High",
         "trendIcon": "trending_up",
         "colorClass": "text-red-600"
       },
       {
-        "label": "Operational Pressure",
-        "value": "High",
-        "trendIcon": "warning",
-        "colorClass": "text-amber-600"
+        "label": "Project Timeline Sensitivity",
+        "value": "Critical",
+        "trendIcon": "timer",
+        "colorClass": "text-orange-500"
       }
     ]
   },
   "signals": [
     {
       "id": "SIG-001",
-      "type": "Opportunity",
+      "type": "Strategic Shift",
       "icon": "business_center",
-      "title": "Luxury Residential Expansion",
-      "description": "\u20b91,100 crore contract with Godrej Properties for luxury developments in Gurugram.",
-      "colorClass": "text-green-600"
+      "title": "Portfolio Pivot",
+      "description": "Company is aggressively shifting toward high-margin infrastructure segments, increasing demand for specialized industrial coatings.",
+      "colorClass": "text-blue-600"
     },
     {
       "id": "SIG-002",
-      "type": "Niche Market",
-      "icon": "health_and_safety",
-      "title": "Senior Living Entry",
-      "description": "New foray into senior living in Bangalore requiring specialized low-VOC and anti-microbial coatings.",
-      "colorClass": "text-blue-600"
+      "type": "Market Opportunity",
+      "icon": "factory",
+      "title": "Semiconductor Plant Construction",
+      "description": "Final 40% of India's first semiconductor plant construction offers immediate opportunities for cleanroom and anti-static coating sub-contracts.",
+      "colorClass": "text-green-600"
     }
   ],
   "latestNews": [
     {
-      "headline": "Tata Projects Secures \u20b91,100 Crore Godrej Contract",
-      "summary": "Tata Projects awarded core and shell construction for luxury residential projects in Gurugram.",
-      "details": "The project involves high-end residential infrastructure, creating demand for premium exterior and architectural coatings.",
-      "source": "Industry Market Reports"
+      "headline": "Tata Projects Re-enters Corporate Bond Market",
+      "summary": "Capital infusion signals new pipeline of large-scale infrastructure projects.",
+      "details": "The company is raising capital to fund upcoming highway, bridge, and rapid transit projects, which will require massive volumes of protective anti-corrosive coatings.",
+      "source": "Financial Market Reports"
     }
   ],
   "financials": {
-    "revenue": "Not Disclosed",
-    "profitMargin": "Not Disclosed",
-    "source": "Public Financial Records"
+    "revenue": "> \u20b91,000 Cr",
+    "profitMargin": "Focusing on high-margin segments",
+    "source": "FY2025 Financial Disclosure"
   },
   "previousContracts": [
     {
-      "projectName": "Godrej Properties Luxury Residential",
-      "value": "\u20b91,100 Crore",
-      "source": "Market Intelligence"
+      "projectName": "India Semiconductor Manufacturing Facility",
+      "value": "Large-Scale EPC",
+      "source": "Project Directorate"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Focus shifting toward high-margin, high-value partnerships to mitigate rising construction costs.",
-      "source": "Tata Realty Executive Briefing"
+      "updateText": "60% of semiconductor plant construction completed; focus shifting to interior fit-outs and specialized MEP coatings.",
+      "source": "Project Director Amit Agrawal"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 75,
-    "trend": "stable",
+    "sentimentScore": 85,
+    "trend": "Positive",
     "recentMentions": [
-      "Tata Projects reputation for safety",
-      "Infrastructure project delivery excellence",
-      "Corporate stability in EPC sector"
+      "Strong employer brand (4.2/5 rating)",
+      "High employee satisfaction in Bengaluru hub",
+      "Focus on inclusivity and professional development"
     ]
   }
 }

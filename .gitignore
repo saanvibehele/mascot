@@ -2,3 +2,4 @@
 **/venv/
 backend/.env
 **/node_modules/
+**/.venv/

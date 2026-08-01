@@ -1,29 +1,35 @@
 {
   "id": "p_004",
-  "companyName": "Phoenix Mills",
-  "phase": "Growth & Expansion",
+  "companyName": "Godrej Properties",
+  "phase": "Aggressive Expansion",
   "location": "Mumbai, India",
-  "industryLocation": "Commercial Real Estate & Retail",
-  "lastUpdated": "2026-07-24",
+  "industryLocation": "Real Estate Development",
+  "lastUpdated": "2026-05-20",
   "visionStrategy": {
-    "statement": "Transitioning from traditional retail to experiential destinations, focusing on high-engagement, premium physical environments.",
-    "attribution": "Corporate Strategic Outlook"
+    "statement": "To deliver vibrant, well-crafted communities while maintaining premium brand equity through high-quality construction and sustainable development.",
+    "attribution": "Godrej Properties Corporate Strategy"
   },
   "aiStrategyBrief": {
     "confidenceScore": 92,
-    "recommendation": "Bypass public tenders; initiate direct B2B outreach to facilities management. Pitch 'Experience Enhancement' and 'Life-Cycle Cost Reduction' rather than basic maintenance to align with their premium experiential retail model.",
+    "recommendation": "Position as a 'Reliability Partner' to mitigate delivery delays and quality concerns. Focus on high-performance, eco-friendly coating solutions that align with their premium 'well-crafted' brand promise to secure upcoming FY27 project procurement.",
     "riskFactors": [
       {
-        "label": "Market Volatility",
-        "value": "5% stock decline post-earnings",
-        "trendIcon": "trending_down",
-        "colorClass": "text-warning"
+        "label": "Delivery Timelines",
+        "value": "High pressure to meet RERA deadlines",
+        "trendIcon": "warning",
+        "colorClass": "text-red-600"
       },
       {
-        "label": "Procurement Complexity",
-        "value": "Avoid RERA-linked public tenders",
-        "trendIcon": "warning",
-        "colorClass": "text-danger"
+        "label": "JV Complexity",
+        "value": "Procurement constraints in joint ventures",
+        "trendIcon": "business_center",
+        "colorClass": "text-amber-600"
+      },
+      {
+        "label": "Regulatory Headwinds",
+        "value": "Construction water bans and policy shifts",
+        "trendIcon": "arrow_downward",
+        "colorClass": "text-orange-500"
       }
     ]
   },
@@ -32,52 +38,57 @@
       "id": "SIG-001",
       "type": "Growth",
       "icon": "trending_up",
-      "title": "Strong Financial Performance",
-      "description": "23.2% Q1 net profit growth indicates high liquidity for facility CapEx.",
-      "colorClass": "text-success"
+      "title": "Aggressive FY27 Booking Target",
+      "description": "\u20b939,000 crore booking target indicates massive upcoming procurement needs for finishing services.",
+      "colorClass": "text-green-600"
     },
     {
       "id": "SIG-002",
-      "type": "Expansion",
-      "icon": "business_center",
-      "title": "Thane Corridor Development",
-      "description": "Aggressive expansion in Thane retail hubs creates immediate demand for architectural coatings.",
-      "colorClass": "text-primary"
+      "type": "Quality",
+      "icon": "verified",
+      "title": "Premium Brand Positioning",
+      "description": "High sensitivity to brand reputation creates demand for premium, long-warranty, and sustainable coating solutions.",
+      "colorClass": "text-blue-600"
     }
   ],
   "latestNews": [
     {
-      "headline": "Q1 FY27 Financial Disclosure Scheduled",
-      "summary": "Board meeting set for July 28, 2026, to review quarterly results.",
-      "details": "Post-earnings investor deck will reveal project completion timelines and specific CapEx allocations for new malls.",
-      "source": "BSE Filing"
+      "headline": "Godrej Properties Reports 70% Surge in Net Profit",
+      "summary": "Strong financial performance in Q4 FY26 provides liquidity for large-scale vendor contracts.",
+      "details": "Revenue grew by 63%, signaling significant expansion in project execution and demand for architectural coatings.",
+      "source": "Financial Market Analysis"
     }
   ],
   "financials": {
-    "revenue": "12.8% Growth",
-    "profitMargin": "23.2% Q1 Net Profit Increase",
-    "source": "Q1 Financial Report"
+    "revenue": "63% YoY Growth",
+    "profitMargin": "\u20b9650 crore Net Profit",
+    "source": "Q4 FY26 Financial Report"
   },
   "previousContracts": [
     {
-      "projectName": "Phoenix Marketcity Portfolio Maintenance",
-      "value": "Confidential",
-      "source": "Internal Market Intelligence"
+      "projectName": "The Trees, Vikhroli",
+      "value": "High-End Luxury",
+      "source": "Public Portfolio"
+    },
+    {
+      "projectName": "Godrej Vistas",
+      "value": "Premium Residential",
+      "source": "Public Portfolio"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Focus outreach on project managers of sites nearing completion post-July 28th earnings call.",
-      "source": "Sales Intelligence Agent"
+      "updateText": "Focus on ESG/Sustainability: Increasing priority for low-VOC and eco-friendly coatings to meet modern RERA compliance.",
+      "source": "Strategic Procurement Intelligence"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 75,
-    "trend": "Constructive",
+    "sentimentScore": 45,
+    "trend": "Polarized",
     "recentMentions": [
-      "Phoenix Shopping League",
-      "Experiential Retail",
-      "Premium Asset Management"
+      "Concerns regarding post-possession build quality",
+      "Praise for luxury amenities and lifestyle branding",
+      "Frustration from NRI investors regarding maintenance"
     ]
   }
 }

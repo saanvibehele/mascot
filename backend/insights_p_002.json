@@ -1,29 +1,29 @@
 {
   "id": "p_002",
   "companyName": "Delhivery",
-  "phase": "Growth & Infrastructure Expansion",
+  "phase": "Expansion & Infrastructure Scaling",
   "location": "Gurugram, India",
   "industryLocation": "Logistics & Supply Chain",
   "lastUpdated": "2026-05-20",
   "visionStrategy": {
-    "statement": "Aggressive scaling of logistics infrastructure and AI-powered fulfillment networks to support e-commerce growth.",
-    "attribution": "Delhivery FY26 Q4 Financial Report"
+    "statement": "Focusing on operational efficiency, digitizing distribution functions, and reducing cost-per-kilometer through massive infrastructure scaling.",
+    "attribution": "Delhivery FY26 Annual Report & Strategic Outlook"
   },
   "aiStrategyBrief": {
-    "confidenceScore": 75,
-    "recommendation": "Target procurement teams for high-traffic warehouse flooring and protective coating maintenance contracts. Focus on durability to lower OPEX.",
+    "confidenceScore": 85,
+    "recommendation": "Target Head of Infrastructure or Procurement for facility maintenance contracts. Pitch high-durability epoxy floor coatings and safety markings as a TCO-reduction strategy for high-traffic sorting centers.",
     "riskFactors": [
       {
-        "label": "Operational Reputation",
-        "value": "High negative sentiment regarding reliability",
+        "label": "Operational Downtime",
+        "value": "High sensitivity to facility maintenance interruptions",
         "trendIcon": "warning",
         "colorClass": "text-red-600"
       },
       {
-        "label": "Profitability Pressure",
-        "value": "Flat net profit despite revenue growth",
-        "trendIcon": "trending_flat",
-        "colorClass": "text-yellow-600"
+        "label": "Service Reputation",
+        "value": "Negative public sentiment regarding last-mile reliability",
+        "trendIcon": "trending_down",
+        "colorClass": "text-orange-500"
       }
     ]
   },
@@ -32,52 +32,52 @@
       "id": "SIG-001",
       "type": "Growth",
       "icon": "trending_up",
-      "title": "30% Revenue Growth",
-      "description": "Significant top-line expansion driving demand for new warehouse infrastructure and facility maintenance.",
+      "title": "Aggressive Revenue Growth",
+      "description": "40% YoY revenue increase to INR 10,486 crore indicates significant CapEx potential for new facility construction.",
       "colorClass": "text-green-600"
     },
     {
       "id": "SIG-002",
-      "type": "Operational",
+      "type": "Maintenance",
       "icon": "business_center",
-      "title": "Franchise Model Expansion",
-      "description": "Decentralized network of hubs creates recurring demand for standardized branding and maintenance services.",
+      "title": "High-Traffic Facility Needs",
+      "description": "1 billion parcels processed annually necessitates heavy-duty floor and wall protection in sorting hubs.",
       "colorClass": "text-blue-600"
     }
   ],
   "latestNews": [
     {
-      "headline": "Delhivery Achieves Free Cash Flow Positive Status",
-      "summary": "Company reports strong financial health with \u20b9152.5 Crore annual profit for FY26.",
-      "details": "Rapid scaling of express parcel volumes and infrastructure integration continues to drive market position.",
-      "source": "Financial Intelligence Report"
+      "headline": "Delhivery Reports Strong FY26 Growth",
+      "summary": "Company achieves 40% YoY revenue growth with a focus on operational efficiency.",
+      "details": "Focus on digitizing distribution and reducing cost-per-kilometer is driving infrastructure investment.",
+      "source": "Financial Market Reports"
     }
   ],
   "financials": {
-    "revenue": "\u20b92,850 Crore",
-    "profitMargin": "5.3%",
-    "source": "FY26 Q4 Financial Summary"
+    "revenue": "INR 10,486 crore",
+    "profitMargin": "15.6% Service EBITDA",
+    "source": "FY26 Annual Financial Summary"
   },
   "previousContracts": [
     {
-      "projectName": "National Warehouse Network Maintenance",
-      "value": "Enterprise Scale",
-      "source": "Internal Market Analysis"
+      "projectName": "TAPF Distribution Digitization",
+      "value": "Strategic Partnership",
+      "source": "Corporate Press Release"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Focus on high-traffic epoxy flooring and anti-corrosive structural coatings for new distribution centers.",
-      "source": "Sales Strategy Recommendation"
+      "updateText": "Continued expansion of fulfillment centers and automated sortation hubs across India.",
+      "source": "Market Intelligence"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 15,
-    "trend": "Negative",
+    "sentimentScore": 35,
+    "trend": "Polarized",
     "recentMentions": [
-      "Delivery delays",
-      "Poor customer support",
-      "Lack of accountability"
+      "Concerns regarding delivery accountability",
+      "Praise for operational scale",
+      "Frustration with customer support resolution"
     ]
   }
 }

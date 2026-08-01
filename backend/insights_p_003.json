@@ -1,29 +1,29 @@
 {
   "id": "p_003",
   "companyName": "Larsen & Toubro",
-  "phase": "Procurement & Mobilization",
+  "phase": "Execution & Procurement",
   "location": "Mumbai, India",
-  "industryLocation": "Global Engineering & Construction",
-  "lastUpdated": "2026-08-01",
+  "industryLocation": "Global Infrastructure & EPC",
+  "lastUpdated": "2024-05-22",
   "visionStrategy": {
-    "statement": "Commitment to carbon neutrality and sustainable infrastructure development through high-performance engineering.",
-    "attribution": "L&T Corporate Sustainability Mandate"
+    "statement": "Focus on high-tech manufacturing, international infrastructure expansion, and operational efficiency to maintain market leadership.",
+    "attribution": "L&T Corporate Strategy"
   },
   "aiStrategyBrief": {
     "confidenceScore": 92,
-    "recommendation": "Target the Buildings & Factories (B&F) division with a focus on precast-compatible, low-VOC coatings. Position as a strategic partner for large-scale residential and luxury projects to align with their current high-velocity project pipeline.",
+    "recommendation": "Shift from premium pricing to a Total Cost of Ownership (TCO) model. Emphasize durability and application efficiency to address their current EBITDA pressure while positioning as a high-capacity, pre-vetted partner via their official vendor portal.",
     "riskFactors": [
       {
-        "label": "Procurement Complexity",
-        "value": "Centralized, high-barrier entry",
-        "trendIcon": "business_center",
-        "colorClass": "text-amber-600"
+        "label": "EBITDA Pressure",
+        "value": "3% YoY decline",
+        "trendIcon": "trending_down",
+        "colorClass": "text-red-600"
       },
       {
-        "label": "Internal Culture",
-        "value": "Rigid, hierarchical management",
-        "trendIcon": "warning",
-        "colorClass": "text-red-600"
+        "label": "Operational Expenses",
+        "value": "Rising",
+        "trendIcon": "arrow_upward",
+        "colorClass": "text-orange-500"
       }
     ]
   },
@@ -31,58 +31,53 @@
     {
       "id": "SIG-001",
       "type": "Opportunity",
-      "icon": "trending_up",
-      "title": "High-Rise Project Pipeline",
-      "description": "Massive demand for protective coatings across 36+ new high-rise towers in Mumbai and Hyderabad.",
+      "icon": "business_center",
+      "title": "High-Volume Infrastructure Pipeline",
+      "description": "Consistent 7% YoY revenue growth indicates massive ongoing project requirements for protective and anti-corrosive coatings.",
       "colorClass": "text-green-600"
     },
     {
       "id": "SIG-002",
-      "type": "Sustainability",
-      "icon": "eco",
-      "title": "Carbon Neutrality Mandate",
-      "description": "Strong preference for low-VOC and energy-efficient coating solutions to meet corporate sustainability goals.",
-      "colorClass": "text-emerald-600"
+      "type": "Warning",
+      "icon": "warning",
+      "title": "Procurement Sensitivity",
+      "description": "Sequential profit decline of 22% necessitates a value-engineered sales approach focusing on cost-saving efficiencies.",
+      "colorClass": "text-amber-600"
     }
   ],
   "latestNews": [
     {
-      "headline": "L&T Secures Major Mumbai High-Rise Redevelopment",
-      "summary": "L&T awarded contract for 26 high-rise towers in Worli, Mumbai.",
-      "details": "Project utilizes advanced precast construction, requiring specialized primers and weather-resistant exterior coatings.",
-      "source": "Industry Project Briefing"
+      "headline": "L&T Reports 14% YoY Profit Growth",
+      "summary": "Strong financial performance in Q1 FY27 despite operational cost headwinds.",
+      "details": "Net profit reached Rs 4,123 crore, driven by robust infrastructure project execution.",
+      "source": "Financial Reports"
     }
   ],
   "financials": {
-    "revenue": "\u20b92,916.2 billion",
-    "profitMargin": "PBDIT-focused reporting",
-    "source": "L&T Financial Disclosure"
+    "revenue": "7% YoY Growth",
+    "profitMargin": "Rs 4,123 crore (14% YoY increase)",
+    "source": "Q1 FY27 Financial Summary"
   },
   "previousContracts": [
     {
-      "projectName": "Mumbai Worli Redevelopment",
-      "value": "Large-Scale Infrastructure",
-      "source": "Internal Project Pipeline"
-    },
-    {
-      "projectName": "Hyderabad High-Rise Expansion",
-      "value": "10-Tower Development",
-      "source": "Internal Project Pipeline"
+      "projectName": "International Infrastructure Expansion",
+      "value": "\u20b95,000 crore",
+      "source": "Market Intelligence"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Critical window for procurement engagement for finishing packages on 2026 project wins.",
-      "source": "Sales Intelligence Brief"
+      "updateText": "Prioritize registration on myzone.larsentoubro.com to access high-value procurement opportunities.",
+      "source": "Procurement Intelligence"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 65,
-    "trend": "Stable but demanding",
+    "sentimentScore": 85,
+    "trend": "Positive",
     "recentMentions": [
-      "L&T job security",
-      "Engineering career foundation",
-      "Work-life balance concerns"
+      "L&T as a pillar of national infrastructure",
+      "High institutional trust",
+      "Modernization of hi-tech manufacturing"
     ]
   }
 }

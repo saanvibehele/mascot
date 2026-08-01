@@ -1,83 +1,83 @@
 {
   "id": "p_001",
   "companyName": "DLF Limited",
-  "phase": "Expansion & Development",
-  "location": "Gurugram, India",
-  "industryLocation": "Real Estate & Commercial Infrastructure",
+  "phase": "Growth & Consolidation",
+  "location": "Gurgaon, India",
+  "industryLocation": "Real Estate Development",
   "lastUpdated": "2025-05-20",
   "visionStrategy": {
-    "statement": "Achieving debt-free development status while scaling a 25 million sq. ft. project pipeline to reach an exit rental income of INR 8,200 crore by FY27.",
-    "attribution": "DLF Investor Relations & FY25 Annual Report"
+    "statement": "Leverage centralized procurement post-merger to scale high-performance, sustainable asset maintenance across national residential and commercial portfolios.",
+    "attribution": "Corporate Strategy & Procurement Division"
   },
   "aiStrategyBrief": {
-    "confidenceScore": 88,
-    "recommendation": "Initiate contact with procurement and project management teams for vendor empanelment. Focus on high-durability, sustainable coating solutions for the upcoming 25 million sq. ft. pipeline, emphasizing reliability to mitigate internal operational friction.",
+    "confidenceScore": 92,
+    "recommendation": "Target the newly centralized procurement office for the parent company. Pitch high-durability, eco-friendly coating solutions that align with DLF's focus on asset longevity and TCO reduction. Ensure all documentation is audit-ready for strict compliance standards.",
     "riskFactors": [
       {
-        "label": "Operational Friction",
-        "value": "Internal communication bottlenecks and project delays",
+        "label": "Procurement Complexity",
+        "value": "Centralization may increase vetting rigor",
         "trendIcon": "warning",
         "colorClass": "text-amber-600"
       },
       {
-        "label": "Market Volatility",
-        "value": "Sensitivity to real estate market fluctuations",
-        "trendIcon": "trending_down",
-        "colorClass": "text-red-600"
+        "label": "Operational Rigor",
+        "value": "Strict project timelines require high reliability",
+        "trendIcon": "schedule",
+        "colorClass": "text-blue-600"
       }
     ]
   },
   "signals": [
     {
       "id": "SIG-001",
-      "type": "Growth",
+      "type": "Opportunity",
       "icon": "trending_up",
-      "title": "Massive Development Pipeline",
-      "description": "25 million sq. ft. of new space planned for medium-term launch.",
+      "title": "Centralized Procurement",
+      "description": "NCLT-approved merger of 16 subsidiaries creates a single, high-volume procurement point for all coating contracts.",
       "colorClass": "text-green-600"
     },
     {
       "id": "SIG-002",
-      "type": "Financial",
-      "icon": "account_balance",
-      "title": "Strong Profitability",
-      "description": "Net profits rose 42.8% to \u20b94,367 crore in FY25.",
+      "type": "Growth",
+      "icon": "business_center",
+      "title": "Project Pipeline Expansion",
+      "description": "Active RERA filings in Mumbai and Gurgaon signal massive upcoming demand for exterior and interior finishing.",
       "colorClass": "text-blue-600"
     }
   ],
   "latestNews": [
     {
-      "headline": "DLF Targets Rs 20,000 Crore Sales Guidance for FY27",
-      "summary": "Aggressive sales targets indicate sustained construction activity.",
-      "details": "The company has a total sales potential of Rs 60,215 crore from its upcoming project pipeline, requiring consistent supply chain support.",
-      "source": "Investor Zone / Corporate Announcements"
+      "headline": "DLF Completes Merger of 16 Subsidiaries",
+      "summary": "Corporate consolidation streamlines operations under the parent entity.",
+      "details": "The merger is expected to centralize procurement and improve operational efficiency across all real estate projects.",
+      "source": "Corporate Filing"
     }
   ],
   "financials": {
-    "revenue": "\u20b98,996 crore",
-    "profitMargin": "42.8% growth",
-    "source": "FY25 Financial Report"
+    "revenue": "Rs 8,996 crore",
+    "profitMargin": "48% Gross Margin",
+    "source": "FY25 Consolidated Financial Report"
   },
   "previousContracts": [
     {
-      "projectName": "Commercial Asset Maintenance Portfolio",
-      "value": "High-Value Recurring",
-      "source": "Facility Management Procurement"
+      "projectName": "Gurgaon Residential Portfolio",
+      "value": "High-Volume Bulk Procurement",
+      "source": "Internal Market Intelligence"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Focus on ESG standards and sustainable product lines for upcoming commercial developments.",
-      "source": "Strategic Market Intelligence"
+      "updateText": "Focus on Mumbai and Gurgaon project launches as primary triggers for RFP issuance.",
+      "source": "Sales Intelligence Agent"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 62,
-    "trend": "Neutral-Positive",
+    "sentimentScore": 85,
+    "trend": "Positive",
     "recentMentions": [
-      "DLF expansion plans",
-      "Commercial real estate demand",
-      "Project delivery timelines"
+      "DLF asset maintenance quality",
+      "Nifty Realty index outperformance",
+      "Sustainable building standards"
     ]
   }
 }
