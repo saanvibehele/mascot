@@ -1,0 +1,85 @@
+{
+  "id": "p_001",
+  "companyName": "DLF Limited",
+  "phase": "Expansion & Capital Deployment",
+  "location": "Gurugram, India",
+  "industryLocation": "National (15 States, 24 Cities)",
+  "lastUpdated": "2026-08-15",
+  "visionStrategy": {
+    "statement": "To maintain market leadership through high-value, super-luxury residential developments and sustainable commercial infrastructure, supported by a \u20b940,000 crore capital expenditure pipeline.",
+    "attribution": "DLF Annual Report 2026"
+  },
+  "aiStrategyBrief": {
+    "confidenceScore": 95,
+    "recommendation": "Position as a premium, RERA-compliant partner capable of delivering high-performance, sustainable coating solutions for super-luxury projects like 'The Dahlias' and 'The Camellias'.",
+    "pitchStrategy": "To win with DLF, you must pivot away from 'commodity pricing' and focus entirely on 'techno-commercial value.' DLF is currently obsessed with maintaining its 'super-luxury' brand image; therefore, your pitch must emphasize how your coatings and sealants enhance the longevity, aesthetic finish, and sustainability profile of their high-ticket assets. \n\nTarget the procurement team by highlighting your ability to meet rigorous RERA-compliant documentation and safety standards. Use the 'The Dahlias' project as your anchor\u2014position your product as the 'finishing standard' that protects their multi-billion rupee investment. Outmaneuver competitors by offering a 'Total Cost of Ownership' model that highlights reduced maintenance cycles and superior weather resistance, which aligns with their long-term rental portfolio strategy (DCCDL). Do not lead with price; lead with risk mitigation and brand alignment.",
+    "keySellingPoints": [
+      "Premium aesthetic finish for super-luxury residential and commercial assets",
+      "High-durability formulations that reduce long-term maintenance costs for rental portfolios",
+      "Full RERA-compliant documentation and technical certification support",
+      "Sustainability-focused products that align with modern ESG and green building standards",
+      "Proven track record of supporting large-scale, high-value infrastructure projects"
+    ]
+  },
+  "signals": [
+    {
+      "id": "SIG-001",
+      "type": "Growth",
+      "icon": "trending_up",
+      "title": "Aggressive Capex",
+      "description": "\u20b940,000 crore investment pipeline over the next 4-5 years.",
+      "colorClass": "green"
+    },
+    {
+      "id": "SIG-002",
+      "type": "Risk",
+      "icon": "warning",
+      "title": "Regulatory Scrutiny",
+      "description": "High sensitivity to RERA compliance and project delivery timelines.",
+      "colorClass": "amber"
+    },
+    {
+      "id": "SIG-003",
+      "type": "Opportunity",
+      "icon": "business_center",
+      "title": "New Vertical Expansion",
+      "description": "Entry into healthcare infrastructure and senior living segments.",
+      "colorClass": "blue"
+    }
+  ],
+  "latestNews": [
+    {
+      "headline": "DLF Reports Strong Q3 FY26 Performance",
+      "summary": "Consolidated net profit rose 14% to Rs 1,203 crore.",
+      "details": "Driven by robust housing demand and record sales in premium segments.",
+      "source": "Investor Zone"
+    }
+  ],
+  "financials": {
+    "revenue": "\u20b9105.47 Billion (TTM)",
+    "profitMargin": "Significant YoY growth (61.46% in Q3 FY25)",
+    "source": "CompaniesMarketCap / Annual Reports"
+  },
+  "previousContracts": [
+    {
+      "projectName": "The Dahlias (Gurugram)",
+      "value": "\u20b92,089 crore (Civil/Structural)",
+      "source": "Ahluwalia Contracts (India) Limited"
+    }
+  ],
+  "latestUpdates": [
+    {
+      "updateText": "DLF has earmarked \u20b95,000 crore annually for FY26-27 to expand its rental business.",
+      "source": "Corporate Financial Disclosure"
+    }
+  ],
+  "twitterAnalysis": {
+    "sentimentScore": 88,
+    "trend": "bullish",
+    "recentMentions": [
+      "The Dahlias",
+      "Super-luxury real estate",
+      "Record-breaking penthouse sales"
+    ]
+  }
+}

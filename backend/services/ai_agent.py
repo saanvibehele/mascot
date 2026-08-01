@@ -29,8 +29,29 @@ def company_research_node(state: AgentState):
     llm = get_llm()
     company = state["company_name"]
     
-    search_results = company_info_search.invoke(f"{company} company profile leadership operations")
-    prompt = f"You are a sales intelligence agent. Summarize the general background, leadership, and core business of {company} based on this data: {search_results}. Keep it focused on factors relevant for B2B sales."
+    queries = [
+        f"{company} company",
+        f"{company} latest projects",
+        f"{company} annual report",
+        f"{company} site:linkedin.com",
+        f"{company} site:wikipedia.com",
+        f"{company} site:inc42.com",
+        f"{company} site:zaubacorp.com"
+    ]
+    
+    combined_results = []
+    for query in queries:
+        try:
+            result = company_info_search.invoke(query)
+            combined_results.append(f"--- Results for '{query}' ---\n{result}")
+        except Exception as e:
+            pass
+            
+    search_results = "\n\n".join(combined_results)
+    with open("company_context.txt", "w", encoding="utf-8") as file:
+        file.write(search_results)
+    
+    prompt = f"You are a sales intelligence agent. Goal: Understand the company {company}. Based on this data:\n{search_results}\n\nExplicitly extract the following: Company description, Industry, latest projects. Prioritize information from Google Search, the Company Website, Wikipedia, LinkedIn Company Page, and Annual Reports."
     res = llm.invoke([HumanMessage(content=prompt)])
     
     return {"company_context": res.content if hasattr(res, 'content') else str(res)}
@@ -38,9 +59,58 @@ def company_research_node(state: AgentState):
 def financial_node(state: AgentState):
     llm = get_llm()
     company = state["company_name"]
+
+    queries = [
+        f"{company} revenue",
+        f"{company} profit growth",
+        f"{company} NSE",
+        f"{company} BSE",
+        f"{company} MO Corporate Affairs",
+        f"{company} Audit firm reports PWC",
+        f"{company} Audit firm reports BCG",
+        f"{company} site:companiesmarketcap.com",
+        f"{company} SEC filings",
+        f"{company} capital expenditure OR new investments",
+        f"{company} previous contracts OR factory expansion",
+
+    ]
     
-    search_results = financial_tender_search.invoke(f"{company} revenue profit growth financial report")
-    prompt = f"You are a sales intelligence agent. Summarize the financial health and scale of operations for {company} based on this data: {search_results}. Highlight details relevant to large infrastructure investments."
+    combined_results = []
+    
+    # Try to fetch yfinance data
+    ticker_prompt = f"What is the Yahoo Finance ticker symbol for {company}? If it's an Indian company on NSE, append '.NS'. Reply ONLY with the ticker symbol (e.g. RELIANCE.NS, TCS.NS, AAPL). If it is not a publicly traded company or you don't know, reply 'NONE'."
+    ticker_res = llm.invoke([HumanMessage(content=ticker_prompt)])
+    
+    ticker_content = ticker_res.content
+    if isinstance(ticker_content, list):
+        # Extract text from blocks if it's a list
+        ticker_str = " ".join([block.get("text", "") for block in ticker_content if isinstance(block, dict) and "text" in block])
+    else:
+        ticker_str = str(ticker_content)
+        
+    ticker = ticker_str.strip().strip("'").strip('"')
+    print(ticker)
+    
+    if ticker.upper() != "NONE":
+        try:
+            from .tools import yfinance_financials
+            yf_result = yfinance_financials.invoke(ticker)
+            combined_results.append(f"--- YFinance Data for {ticker} ---\n{yf_result}")
+        except Exception as e:
+            pass
+
+    for query in queries:
+        try:
+            result = financial_tender_search.invoke(query)
+            combined_results.append(f"--- Results for '{query}' ---\n{result}")
+        except Exception as e:
+            pass
+            
+    search_results = "\n\n".join(combined_results)
+    with open("financial_context.txt", "w", encoding="utf-8") as file:
+        file.write(search_results)
+    
+    prompt = f"You are a sales intelligence agent. Summarize the financial health and scale of operations for {company} based on this data:\n{search_results}\n\nExplicitly extract the following if available: Revenue, Profit, Capital expenditure, New investments, previous contracts, and Factory expansion. Prioritize extracting data from authentic sources like Annual Reports, Yahoo Finance, NSE/BSE, CompaniesMarketCap, and SEC filings. Highlight details relevant to large infrastructure investments."
     res = llm.invoke([HumanMessage(content=prompt)])
     
     return {"financial_context": res.content if hasattr(res, 'content') else str(res)}
@@ -48,9 +118,40 @@ def financial_node(state: AgentState):
 def news_node(state: AgentState):
     llm = get_llm()
     company = state["company_name"]
+
+    queries = [
+        f"{company} latest news",
+        f"{company} market updates",
+        f"{company} site:volza.com",
+        f"{company} site:dgft.gov.in",
+        f"{company} site:reuters.com",
+        f"{company} site:economictimes.indiatimes.com",
+        f"{company} site:business-standard.com",
+    ]
     
-    search_results = market_news_search.invoke(f"{company} latest news market updates real estate construction")
-    prompt = f"You are a sales intelligence agent. Summarize the latest news and market updates for {company} based on this data: {search_results}. Focus on new projects or expansions."
+    combined_results = []
+    
+    # Try fetching Google News using gnews
+    try:
+        from .tools import google_news_search
+        gnews_query = f"{company} expansion OR new projects OR facility"
+        gnews_result = google_news_search.invoke(gnews_query)
+        combined_results.append(gnews_result)
+    except Exception as e:
+        pass
+        
+    for query in queries:
+        try:
+            result = market_news_search.invoke(query)
+            combined_results.append(f"--- Results for '{query}' ---\n{result}")
+        except Exception as e:
+            pass
+            
+    search_results = "\n\n".join(combined_results)
+    with open("news_context.txt", "w", encoding="utf-8") as file:
+        file.write(search_results)
+    
+    prompt = f"You are a sales intelligence agent. Goal: Find recent developments for {company}. Based on this data:\n{search_results}\n\nExplicitly extract the following if available: acquisitions, mergers, expansion, partnerships, product launches, and sustainability initiatives. Prioritize information from Google News, Reuters, Economic Times, Business Standard, and Company press releases."
     res = llm.invoke([HumanMessage(content=prompt)])
     
     return {"news_context": res.content if hasattr(res, 'content') else str(res)}
@@ -60,6 +161,8 @@ def social_node(state: AgentState):
     company = state["company_name"]
     
     search_results = social_sentiment_search.invoke(f"{company} customer reviews PR sentiment Twitter")
+    with open("social_context.txt", "w", encoding="utf-8") as file:
+        file.write(search_results)
     prompt = f"You are a sales intelligence agent. Summarize the public sentiment and social media opinion for {company} based on this data: {search_results}."
     res = llm.invoke([HumanMessage(content=prompt)])
     
@@ -68,9 +171,27 @@ def social_node(state: AgentState):
 def procurement_node(state: AgentState):
     llm = get_llm()
     company = state["company_name"]
+
+    queries = [
+        f"{company} procurement",
+        f"{company} previous contracts",
+        f"{company} rera",
+        f"{company} government tender portals",
+        f"{company} GEM",
+    ]
+    combined_results = []
+    for query in queries:
+        try:
+            result = procurement_tender_search.invoke(query)
+            combined_results.append(f"--- Results for '{query}' ---\n{result}")
+        except Exception as e:
+            pass
     
-    search_results = procurement_tender_search.invoke(f"{company} procurement vendor registration supply chain tenders bids")
-    prompt = f"You are a sales intelligence agent. Summarize the procurement processes, active tenders, or vendor criteria for {company} based on this data: {search_results}. Focus on how they buy materials and select suppliers."
+    search_results = "\n\n".join(combined_results)
+    with open("procurement_context.txt", "w", encoding="utf-8") as file:
+        file.write(search_results)
+    
+    prompt = f"You are a sales intelligence agent. Summarize the procurement processes, active tenders, and previous contracts built by {company} based on this data: {search_results}. Prioritize data from authentic sources like RERA, Gov tender portals, and GeM. Focus on how they buy materials and what large projects they have built."
     res = llm.invoke([HumanMessage(content=prompt)])
     
     return {"procurement_context": res.content if hasattr(res, 'content') else str(res)}

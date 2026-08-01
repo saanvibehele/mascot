@@ -1,97 +1,90 @@
 {
   "id": "p_005",
-  "companyName": "Tata Projects",
-  "phase": "Growth & Asset Expansion",
-  "location": "Mumbai, India",
-  "industryLocation": "Global EPC & Infrastructure",
-  "lastUpdated": "2025-05-20",
+  "companyName": "Tata Projects Limited",
+  "phase": "Growth & Expansion",
+  "location": "Secunderabad, Hyderabad, Telangana",
+  "industryLocation": "India",
+  "lastUpdated": "2026-07-25",
   "visionStrategy": {
-    "statement": "To be the most admired infrastructure company by delivering complex, high-value projects through innovation, technical excellence, and sustainable, long-term partnerships.",
-    "attribution": "Corporate Mission Statement"
+    "statement": "To be a technology-led, sustainable EPC leader delivering complex infrastructure with a focus on modular execution and long-term profitability.",
+    "attribution": "Vinayak Pai, CEO"
   },
   "aiStrategyBrief": {
     "confidenceScore": 92,
-    "recommendation": "Prioritize technical certification and vendor portal registration immediately to align with their current capital-intensive 'build-up' phase. Focus on high-performance, durable coatings that support long-term asset maintenance for their industrial and semiconductor projects.",
-    "pitchStrategy": "Position your coatings and sealants as 'Asset Lifecycle Protectors' rather than just commodities. Tata Projects is currently in a massive asset expansion phase; they are not looking for the cheapest paint, but for solutions that minimize O&M costs over the next 10-20 years. \n\nIn your pitch, emphasize your ability to meet their rigorous technical specifications for industrial-grade protection. Since they utilize Reverse E-Auctions, your goal is to be pre-qualified based on technical superiority so that when the auction occurs, your product is already 'locked in' as a compliant choice. Highlight your ability to support their 'one-stop' service model by offering technical field support and rapid supply chain integration. Avoid purely transactional language; frame your solution as a partnership that ensures the longevity of their high-profile infrastructure, such as their new semiconductor fabrication facilities.",
+    "recommendation": "Position as a high-performance, sustainable coating and sealant partner for specialized industrial and semiconductor infrastructure projects.",
+    "pitchStrategy": "Target the 'Technology-Led EPC' narrative. Tata Projects is moving away from legacy issues toward high-precision, modular construction (e.g., Micron semiconductor plant, SAF projects). Your pitch must emphasize 'Performance Under Pressure'\u2014specifically how your coatings/sealants reduce maintenance cycles in high-stakes environments like nuclear facilities or semiconductor cleanrooms. \n\nAvoid generic 'construction supply' messaging. Instead, align with their sustainability goals by highlighting low-VOC, high-durability products that extend the lifecycle of their infrastructure. Leverage their 'in-office' culture by proposing on-site technical demonstrations and collaborative engineering workshops with their project managers. Position your firm as a technical partner that helps them meet the rigorous quality standards required for their high-profile joint ventures (e.g., Daewoo E&C, Godrej Properties).",
     "keySellingPoints": [
-      "Long-term asset protection reducing total cost of ownership (TCO)",
-      "Proven technical compliance for high-tech industrial environments (semiconductor/energy)",
-      "Seamless integration with large-scale EPC project timelines",
-      "Commitment to sustainability and high corporate governance standards",
-      "Dedicated technical support for complex site-specific applications"
-    ],
-    "riskFactors": [
-      {
-        "label": "Elongated Decision Cycles",
-        "value": "Market trends indicate slower procurement cycles for large infrastructure projects.",
-        "trendIcon": "timer",
-        "colorClass": "warning"
-      },
-      {
-        "label": "Reverse E-Auction Pressure",
-        "value": "High reliance on price-driven bidding platforms for final selection.",
-        "trendIcon": "trending_down",
-        "colorClass": "warning"
-      },
-      {
-        "label": "Strict Technical Vetting",
-        "value": "Rigorous pre-qualification requirements for new vendors.",
-        "trendIcon": "verified",
-        "colorClass": "info"
-      }
+      "High-durability, low-maintenance coatings for extreme industrial environments",
+      "Sustainability-certified products aligning with Tata's green infrastructure goals",
+      "Technical support for modular, rapid-execution construction timelines",
+      "Proven track record in high-compliance sectors like nuclear and semiconductor manufacturing",
+      "Collaborative engineering support for complex, large-scale civil projects"
     ]
   },
   "signals": [
     {
       "id": "SIG-001",
-      "type": "Strategic Expansion",
-      "icon": "factory",
-      "title": "Semiconductor Plant Construction",
-      "description": "60% completion of India's first semiconductor fab; indicates immediate need for specialized facility fit-out materials.",
-      "colorClass": "success"
+      "type": "Growth",
+      "icon": "trending_up",
+      "title": "Semiconductor Expansion",
+      "description": "Executing India's first major semiconductor plant for Micron, requiring specialized, high-purity construction materials.",
+      "colorClass": "green"
     },
     {
       "id": "SIG-002",
-      "type": "Financial Activity",
-      "icon": "account_balance",
-      "title": "Return to Bond Market",
-      "description": "Securing capital for large-scale infrastructure, signaling active project deployment.",
-      "colorClass": "info"
+      "type": "Strategic",
+      "icon": "business_center",
+      "title": "Luxury Residential Pivot",
+      "description": "New \u20b91,100 crore partnership with Godrej Properties for core-and-shell construction.",
+      "colorClass": "blue"
+    },
+    {
+      "id": "SIG-003",
+      "type": "Risk",
+      "icon": "warning",
+      "title": "High Compliance Standards",
+      "description": "Strict adherence to RERA and nuclear-grade safety standards required for all vendor materials.",
+      "colorClass": "orange"
     }
   ],
   "latestNews": [
     {
-      "headline": "Tata Projects Advances Semiconductor Fab Construction",
-      "summary": "Project is 60% complete, moving toward final fit-out stages.",
-      "details": "The facility is a landmark project for India's high-tech manufacturing sector, requiring specialized industrial coatings.",
+      "headline": "Tata Projects Partners for Sustainable Aviation Fuel",
+      "summary": "Selected as the EPC partner for SAF One's sustainable aviation fuel project.",
+      "details": "Focus on modular execution and standardized designs for sustainable infrastructure.",
       "source": "Industry Reports"
     }
   ],
   "financials": {
-    "revenue": "\u20b917,470.59 crore",
-    "profitMargin": "Stable/Consolidating",
-    "source": "FY25 Financial Disclosure"
+    "revenue": "\u20b917,565 crore (FY2025)",
+    "profitMargin": "Positive growth trend; returned to profitability",
+    "source": "Internal Financial Reports"
   },
   "previousContracts": [
     {
-      "projectName": "Industrial Infrastructure Portfolio",
-      "value": "High-Value EPC",
+      "projectName": "Indore Metro Phase 1 (Underground)",
+      "value": "\u20b92,191 crore",
+      "source": "Public Tender Records"
+    },
+    {
+      "projectName": "NPCIL Nuclear Infrastructure",
+      "value": "$321 million",
       "source": "Corporate Portfolio"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Company is aggressively expanding asset base by 15.71% in 2025.",
-      "source": "Financial Analysis"
+      "updateText": "Buildings and Infrastructure division targeting \u20b960,000\u201370,000 crore order book by 2030.",
+      "source": "COO Raman Kapil"
     }
   ],
   "twitterAnalysis": {
     "sentimentScore": 85,
-    "trend": "Positive",
+    "trend": "positive",
     "recentMentions": [
-      "Tata Projects",
-      "Infrastructure Growth",
-      "Semiconductor India"
+      "Tata Projects' commitment to sustainable data centers",
+      "Strong job security and professional culture",
+      "Leadership in complex EPC execution"
     ]
   }
 }

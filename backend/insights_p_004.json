@@ -1,44 +1,24 @@
 {
   "id": "p_004",
   "companyName": "Godrej Properties Limited",
-  "phase": "Growth & Expansion",
-  "location": "Mumbai, Maharashtra, India",
-  "industryLocation": "Pan-India Real Estate Development",
-  "lastUpdated": "2026-05-22",
+  "phase": "Expansion & Aggressive Land Acquisition",
+  "location": "Mumbai, India",
+  "industryLocation": "Pan-India (15+ cities)",
+  "lastUpdated": "2026-07-25",
   "visionStrategy": {
-    "statement": "To be the most trusted and sustainable real estate developer in India by leveraging the 127-year legacy of the Godrej Group to build vibrant, high-quality communities.",
-    "attribution": "Corporate Strategy & Investor Relations"
+    "statement": "To be the most trusted and sustainable real estate developer in India, focusing on vibrant, well-crafted communities.",
+    "attribution": "Godrej Properties Corporate Philosophy"
   },
   "aiStrategyBrief": {
-    "confidenceScore": 92,
-    "recommendation": "Position as a high-compliance, long-term strategic partner capable of mitigating operational risks while supporting their aggressive project launch velocity.",
-    "pitchStrategy": "Target the procurement and project management leadership by emphasizing technical superiority and ESG compliance. Given the recent regulatory headwinds (BMC water ban), your pitch must lead with 'Operational Resilience'\u2014show how your coatings and sealants contribute to sustainable, long-lasting infrastructure that reduces maintenance cycles and aligns with their premium brand promise. \n\nAvoid transactional pricing discussions. Instead, frame your solution as a 'Risk Mitigation' asset. Use the 'Godrej' brand legacy to your advantage by highlighting how your products protect their reputation against post-purchase service complaints. Position your firm as a partner that understands their e-procurement rigor and is ready to integrate into their long-term contractual framework. Focus on the 'Pune-model' of customer-centricity to show you are aligned with their goal of reducing project delivery friction.",
+    "confidenceScore": 95,
+    "recommendation": "Position as a 'Speed-to-Market' partner to mitigate RERA-related delivery risks while aligning with their premium sustainability standards.",
+    "pitchStrategy": "Target the 'Contracts & Procurement' department by emphasizing technical efficiency and project management reliability. Godrej is currently under pressure to deliver on a massive pipeline (e.g., \u20b922,000 Cr in H2 FY26). Your pitch must pivot away from 'commodity supplier' to 'project risk mitigator.' Highlight how your high-performance coatings and sealants reduce maintenance cycles and accelerate finishing phases, directly addressing their need to avoid RERA-related delays.\n\nWhen engaging, reference their recent \u20b91,100 Cr partnership with Tata Projects as a benchmark for the quality and scale they expect. Use the 'premium' narrative of their Vikhroli projects to justify higher-spec, long-lasting coating solutions that protect their brand reputation. If you encounter resistance regarding cost, pivot to 'Total Cost of Ownership' (TCO) and the long-term asset value protection that premium sealants provide for their luxury portfolio.",
     "keySellingPoints": [
-      "ESG-compliant, sustainable coating solutions that support green building certifications.",
-      "High-durability sealants designed to reduce long-term maintenance costs and post-purchase service complaints.",
-      "Proven track record in large-scale, high-velocity residential and commercial project delivery.",
-      "Technical support teams aligned with the rigorous standards of the Godrej procurement hierarchy.",
-      "Supply chain reliability to ensure project timelines remain unaffected by market volatility."
-    ],
-    "riskFactors": [
-      {
-        "label": "Regulatory Sensitivity",
-        "value": "Recent municipal water bans impacting construction timelines.",
-        "trendIcon": "warning",
-        "colorClass": "text-red-600"
-      },
-      {
-        "label": "Service Reputation",
-        "value": "Localized complaints regarding project delivery and maintenance.",
-        "trendIcon": "error",
-        "colorClass": "text-orange-500"
-      },
-      {
-        "label": "Market Volatility",
-        "value": "Sector-wide stock pressure affecting capital allocation.",
-        "trendIcon": "trending_down",
-        "colorClass": "text-yellow-600"
-      }
+      "Accelerated application timelines to support aggressive project delivery schedules.",
+      "High-durability, weather-resistant coatings that protect premium asset value in diverse Indian climates.",
+      "Sustainability-certified products aligning with Godrej's 'vibrant communities' and green building initiatives.",
+      "Proven track record of supporting large-scale, Tier-1 construction projects.",
+      "Technical support and on-site application training to ensure zero-defect finishing."
     ]
   },
   "signals": [
@@ -46,52 +26,52 @@
       "id": "SIG-001",
       "type": "Growth",
       "icon": "trending_up",
-      "title": "Record Profitability",
-      "description": "32.49% YoY profit surge in FY26 indicates strong capital availability for new projects.",
-      "colorClass": "text-green-600"
+      "title": "Aggressive Land Banking",
+      "description": "Recent acquisitions in Noida, Gurugram, and Hyderabad signal immediate demand for construction materials and finishing services.",
+      "colorClass": "green"
     },
     {
       "id": "SIG-002",
-      "type": "Procurement",
-      "icon": "business_center",
-      "title": "Structured Procurement",
-      "description": "Shift toward technical, long-term contractual relationships managed by experienced leadership.",
-      "colorClass": "text-blue-600"
+      "type": "Risk",
+      "icon": "warning",
+      "title": "RERA Delivery Pressure",
+      "description": "Public scrutiny regarding project delays necessitates vendors who can guarantee speed and reliability.",
+      "colorClass": "red"
     }
   ],
   "latestNews": [
     {
-      "headline": "Godrej Properties Faces Regulatory Headwinds in Mumbai",
-      "summary": "BMC construction water ban impacts short-term operational momentum.",
-      "details": "Shares dipped 4% following municipal directives, highlighting the need for vendors to provide water-efficient or compliant solutions.",
-      "source": "Market Intelligence Report"
+      "headline": "Godrej Properties Secures 4.95-Acre Plot in Noida",
+      "summary": "Strategic acquisition for \u20b9331.75 crore to fuel future residential growth.",
+      "details": "The project has an estimated revenue potential of over \u20b92,000 crore, requiring immediate procurement planning.",
+      "source": "Market News July 2026"
     }
   ],
   "financials": {
-    "revenue": "\u20b95,131 crore",
-    "profitMargin": "32.49% YoY growth",
-    "source": "FY26 Consolidated Financial Report"
+    "revenue": "\u20b95,131.43 Crore (Consolidated FY26)",
+    "profitMargin": "41.65% Operating Margin",
+    "source": "FY26 Annual Report"
   },
   "previousContracts": [
     {
-      "projectName": "Residential Township Development",
-      "value": "High-Value Strategic Partnership",
-      "source": "Corporate Procurement Records"
+      "projectName": "Core & Shell Construction (Various)",
+      "value": "\u20b91,100 Crore",
+      "source": "Tata Projects Partnership"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Focus on increasing residential bookings and accelerating project launches in major metros.",
-      "source": "Investor Relations Q4 FY26"
+      "updateText": "Nadir Godrej to step down from the Board in August 2026; transition expected to be smooth.",
+      "source": "Corporate Governance Filing"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 78,
+    "sentimentScore": 75,
     "trend": "Bullish",
     "recentMentions": [
-      "Strong support at \u20b92,000-2,100 levels",
-      "High engagement on luxury sea-view projects",
-      "Positive sentiment regarding long-term brand trust"
+      "Godrej Vistas Vikhroli",
+      "Godrej Vanantara Bengaluru",
+      "Stock Market Performance"
     ]
   }
 }
