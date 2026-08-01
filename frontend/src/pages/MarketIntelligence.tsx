@@ -125,8 +125,11 @@ export default function MarketIntelligence() {
           prospects.map((prospect) => (
             <div key={prospect.id} className="bg-surface-container-lowest shadow-sm rounded-xl overflow-hidden group flex flex-col h-full hover:shadow-lg transition-shadow border border-transparent">
               <div className="h-32 bg-primary/10 relative overflow-hidden flex items-center justify-center">
-                <span className="material-symbols-outlined text-[64px] text-primary/20">business</span>
-                <div className="absolute top-md left-md">
+                {prospect.imageUrl ? (
+                  <img src={prospect.imageUrl} alt={prospect.companyName} className="absolute inset-0 w-full h-full object-cover opacity-80 mix-blend-multiply" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextElementSibling?.classList.remove('hidden'); }} />
+                ) : null}
+                <span className={`material-symbols-outlined text-[64px] text-primary/20 ${prospect.imageUrl ? 'hidden' : ''}`}>business</span>
+                <div className="absolute top-md left-md z-10">
                   <span className="bg-primary/90 text-on-primary px-sm py-1 rounded-full text-label-caps font-label-caps uppercase backdrop-blur-sm">{prospect.phase}</span>
                 </div>
               </div>
@@ -134,9 +137,7 @@ export default function MarketIntelligence() {
                 <h3 className="font-headline-md text-primary mb-sm">{prospect.companyName}</h3>
                 <p className="text-on-surface-variant font-body-sm line-clamp-3 mb-md">{prospect.projectDescription}</p>
                 <div className="mt-auto pt-md border-t border-outline-variant flex items-center justify-between">
-                  <div className="flex items-center gap-xs">
-                    <span className="material-symbols-outlined text-tertiary text-sm">request_quote</span>
-                    <span className="text-on-surface-variant text-label-caps font-label-caps uppercase">Value: {prospect.value}</span>
+                  <div className="flex items-center gap-md">
                   </div>
                   <Link to={`/opportunities/${prospect.id}`} className="text-primary font-bold font-label-caps text-label-caps flex items-center gap-1 hover:gap-2 transition-all">
                     Read Insight <span className="material-symbols-outlined text-sm">arrow_forward</span>

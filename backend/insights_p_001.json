@@ -2,101 +2,99 @@
   "id": "p_001",
   "companyName": "DLF Limited",
   "phase": "Growth & Expansion",
-  "location": "Gurugram, Haryana, India",
-  "industryLocation": "Pan-India",
-  "lastUpdated": "2026-05-20",
+  "location": "New Delhi, India",
+  "industryLocation": "Pan-India (NCR, Mumbai, Goa)",
+  "lastUpdated": "2026-07-20",
   "visionStrategy": {
-    "statement": "To maintain market leadership through high-end luxury residential and commercial annuity growth while achieving a debt-free development model.",
-    "attribution": "Corporate Strategy & Investor Relations"
+    "statement": "To maintain market leadership through high-margin luxury residential development and a robust, annuity-driven commercial rental portfolio.",
+    "attribution": "DLF Corporate Strategy & Investor Relations"
   },
   "aiStrategyBrief": {
-    "confidenceScore": 92,
-    "recommendation": "Position as a premium, ESG-compliant partner for high-rise luxury and commercial assets to align with DLF's focus on long-term asset value and sustainability.",
-    "pitchStrategy": "Target the procurement team led by Arpit Mehta by emphasizing your ability to meet stringent RERA compliance and high-quality standards required for luxury projects like 'The Dahlias'. Avoid generic sales pitches; instead, frame your coatings and sealants as 'asset protection' solutions that reduce long-term maintenance costs for their 50 million sq. ft. commercial portfolio. \n\nLeverage their 'zero gross debt' status to highlight that you are looking for a long-term, high-value partnership rather than a one-off transaction. Emphasize your ESG credentials, as DLF is increasingly focused on sustainable urban development. Position your products as essential for maintaining the 'premium' brand perception of their luxury residential and retail assets, ensuring they remain competitive in the high-occupancy market.",
+    "confidenceScore": 95,
+    "recommendation": "Prioritize direct engagement with the Contracts and Procurement department at the New Delhi HQ, focusing on high-performance, LEED-compliant coating solutions for luxury residential and commercial assets.",
+    "pitchStrategy": "Position your product as a 'Premium Asset Protection' solution rather than a commodity. DLF is currently hyper-focused on luxury branding (e.g., 'The Dahlias') and sustainability (LEED Platinum). Your pitch must emphasize how your coatings enhance the longevity and aesthetic value of their high-end assets, directly supporting their premium pricing strategy. \n\nAvoid generic procurement channels. Instead, leverage the 'sustainability' angle by highlighting your product's contribution to LEED certification and environmental compliance. Target the procurement leadership (Arpit Mehta) by framing your solution as a risk-mitigation tool that ensures project durability and reduces long-term maintenance costs for their massive rental portfolio (DCCDL). Use the 'luxury' narrative to align with their recent record-breaking sales, suggesting that your premium finish is the standard required for their elite clientele.",
     "keySellingPoints": [
-      "ESG-compliant and sustainable product formulations",
-      "Proven durability for high-rise luxury infrastructure",
-      "Alignment with RERA-compliant project timelines",
-      "Long-term asset protection to support high rental occupancy rates",
-      "Scalability to handle large-scale developments like 'The Dahlias'"
+      "LEED-compliant and eco-friendly formulations to support DLF's sustainability goals.",
+      "High-durability, low-maintenance coatings that protect long-term asset value for the rental portfolio.",
+      "Premium aesthetic finishes that align with the 'luxury' branding of projects like The Dahlias.",
+      "Proven capacity for large-scale, high-speed project execution to meet aggressive delivery timelines.",
+      "Regulatory-compliant documentation to satisfy strict RERA and internal audit standards."
     ]
   },
   "signals": [
     {
-      "id": "SIG-001",
+      "id": "sig-001",
       "type": "Growth",
       "icon": "trending_up",
-      "title": "FY27 Sales Target",
-      "description": "Target of \u20b920,000 crore indicates massive upcoming construction activity.",
+      "title": "Aggressive Capex",
+      "description": "\u20b940,000 Crore investment pipeline over the next 4-5 years.",
       "colorClass": "green"
     },
     {
-      "id": "SIG-002",
+      "id": "sig-002",
       "type": "Risk",
       "icon": "warning",
       "title": "Regulatory Scrutiny",
-      "description": "High focus on RERA compliance for all ongoing and future projects.",
-      "colorClass": "yellow"
+      "description": "High sensitivity to RERA compliance and project delivery timelines.",
+      "colorClass": "amber"
+    },
+    {
+      "id": "sig-003",
+      "type": "Opportunity",
+      "icon": "business_center",
+      "title": "New Segment Entry",
+      "description": "Expansion into senior living market with \u20b92,000 crore project.",
+      "colorClass": "blue"
     }
   ],
   "latestNews": [
     {
-      "headline": "DLF Targets \u20b920,000 Crore Sales for FY27",
-      "summary": "Company announces aggressive growth plans driven by luxury residential demand.",
-      "details": "Focus on 'The Dahlias' and new senior living segment in Gurugram.",
+      "headline": "DLF Sells Out Privana South for \u20b97,200 Crore",
+      "summary": "Record-breaking 72-hour sell-out of 1,113 luxury units in Gurugram.",
+      "details": "The project highlights the massive demand for luxury residential assets in the NCR region.",
       "source": "Corporate Press Release"
     }
   ],
   "financials": {
-    "revenue": "\u20b981.94 Billion (TTM)",
-    "profitMargin": "14% YoY Profit Growth (Q3 FY26)",
-    "source": "Financial Reports"
+    "revenue": "\u20b98,194 Crore (FY26)",
+    "profitMargin": "Net Profit \u20b94,414 Crore (FY26)",
+    "source": "FY26 Financial Statements"
   },
   "previousContracts": [
     {
-      "projectName": "DLF One Midtown",
-      "value": "Confidential",
-      "source": "Company Portfolio"
+      "projectName": "DLF Cyber City Developers (DCCDL)",
+      "value": "Annuity-based commercial portfolio",
+      "source": "Annual Report"
     },
     {
-      "projectName": "DLF Corporate Greens",
-      "value": "Confidential",
-      "source": "Regulatory Filings"
+      "projectName": "DLF Privana South",
+      "value": "\u20b97,200 Crore project value",
+      "source": "Market Disclosure"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Appointment of PwC as internal auditors for FY 2026-27 to ensure financial transparency.",
-      "source": "Corporate Governance Report"
+      "updateText": "Re-appointment of PwC Services LLP as Internal Auditors for FY 2026-27.",
+      "source": "Corporate Governance Filing"
     }
   ],
   "twitterAnalysis": {
     "sentimentScore": 85,
-    "trend": "Bullish",
+    "trend": "Positive",
     "recentMentions": [
-      "DLF stock hitting 52-week highs",
-      "Premium lifestyle branding in NCR",
-      "Strong investor confidence in debt-free model"
+      "DLF's luxury dominance",
+      "Market cap leadership",
+      "Investor confidence in rental assets"
     ]
   },
   "keyDecisionMakers": [
-    "Arpit Mehta (VP, Contracts and Procurement)",
-    "Badal Bagri (Group CFO)",
-    "Pankaj Jain (GM-Finance)"
-  ],
-  "vendorEcosystem": [
-    {
-      "name": "Aecom Asia Company Limited",
-      "relation": "Infrastructure Partner"
-    },
-    {
-      "name": "Urvasi Infratech",
-      "relation": "Project Development Associate"
-    }
+    "Arpit Mehta (VP - Contracts and Procurement)",
+    "Ashok Tyagi (Managing Director)"
   ],
   "upcomingProjects": [
-    "The Dahlias (Luxury Residential)",
-    "Senior Living Project (Gurugram)",
-    "DLF Summit Plaza Expansion"
+    "DLF Privana South (Gurugram)",
+    "Senior Living Segment (Gurugram)",
+    "The Bayview (Goa)",
+    "DLF MyPad (Lucknow)"
   ]
 }

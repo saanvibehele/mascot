@@ -1,102 +1,97 @@
 {
   "id": "p_002",
   "companyName": "Delhivery",
-  "phase": "High Growth & Efficiency",
+  "phase": "Growth & Operational Optimization",
   "location": "Gurugram, Haryana, India",
   "industryLocation": "Logistics & Supply Chain",
-  "lastUpdated": "2026-08-01",
+  "lastUpdated": "2026-07-25",
   "visionStrategy": {
-    "statement": "Consolidating the Indian logistics sector through tech-enabled infrastructure and end-to-end supply chain dominance.",
-    "attribution": "Sahil Barua, CEO"
+    "statement": "To become the operating system for commerce in India through technology-driven, fully-integrated logistics infrastructure.",
+    "attribution": "Sahil Barua, Co-Founder"
   },
   "aiStrategyBrief": {
-    "confidenceScore": 85,
-    "recommendation": "Position high-performance, durable industrial coatings and sealants as a critical component of their 'infrastructure-as-a-service' model to reduce maintenance downtime in high-traffic sorting hubs.",
-    "pitchStrategy": "Approach Delhivery's procurement leadership by framing your product not as a commodity, but as an operational efficiency tool. Given their recent shift to profitability and focus on scaling, emphasize how your specialized coatings protect high-value automated sorting equipment and warehouse flooring from the wear-and-tear of 24/7 logistics operations. \n\nAddress the 'reliability' gap by highlighting how your solutions contribute to a cleaner, safer, and more durable facility environment, which indirectly supports their brand promise of service excellence. Position your firm as a partner that understands the high-velocity nature of their business, offering rapid-cure, low-VOC, and high-durability products that minimize facility downtime during application. Outmaneuver competitors by focusing on total cost of ownership (TCO) rather than unit price, demonstrating how your products extend the lifecycle of their physical assets.",
+    "confidenceScore": 92,
+    "recommendation": "Position high-performance industrial coatings and protective sealants as critical infrastructure maintenance solutions to support Delhivery's rapid expansion of fulfillment centers and 'Rapid' delivery hubs.",
+    "pitchStrategy": "Target the facility management and infrastructure procurement teams by focusing on 'Operational Continuity.' Delhivery is scaling its physical footprint (warehousing and gateways) and faces public scrutiny regarding service reliability. Pitch your coatings as a way to reduce downtime in high-traffic sorting hubs and protect assets in their new 'Rapid' micro-fulfillment centers. Emphasize that your products provide the durability required for 24/7, high-volume logistics operations, directly supporting their goal of operational efficiency. Avoid generic sales pitches; frame your solution as a 'Facility Resilience' partnership that protects their capital investments in new gateways like the Tauru Mega Gateway. Use the 'all-women-run' hub initiative as a touchpoint for discussing safety, high-standard facility maintenance, and long-term asset protection.",
     "keySellingPoints": [
-      "Rapid-cure technology to minimize facility downtime during maintenance",
-      "High-abrasion resistance for heavy-traffic warehouse and sorting center floors",
-      "Low-VOC and sustainable formulations aligning with corporate ESG goals",
-      "Long-term asset protection to reduce recurring capital expenditure",
-      "Customized maintenance schedules to support 24/7 operational continuity"
+      "High-durability, abrasion-resistant floor coatings for 24/7 automated sorting hubs.",
+      "Rapid-cure sealants to minimize facility downtime during maintenance cycles.",
+      "Sustainable, low-VOC coating solutions aligning with corporate ESG and social responsibility goals.",
+      "Enhanced asset protection for high-value warehousing infrastructure to ensure long-term ROI.",
+      "Proven track record in high-traffic industrial environments to mitigate operational risk."
     ]
   },
   "signals": [
     {
-      "id": "sig-001",
-      "type": "Growth",
+      "id": "SIG-001",
+      "type": "Expansion",
       "icon": "trending_up",
-      "title": "Revenue Scaling",
-      "description": "30% YoY revenue growth in Q4 FY26, signaling aggressive infrastructure utilization.",
+      "title": "Rapid Infrastructure Growth",
+      "description": "Aggressive expansion of 'Delhivery Rapid' micro-fulfillment centers requires localized facility maintenance.",
       "colorClass": "green"
     },
     {
-      "id": "sig-002",
-      "type": "Risk",
+      "id": "SIG-002",
+      "type": "Operational",
       "icon": "warning",
-      "title": "Customer Sentiment Gap",
-      "description": "Public trust issues regarding service reliability necessitate a focus on operational excellence and facility standards.",
+      "title": "Reliability Pressure",
+      "description": "High public scrutiny on delivery reliability necessitates flawless, high-uptime facility operations.",
       "colorClass": "red"
     },
     {
-      "id": "sig-003",
-      "type": "Strategy",
+      "id": "SIG-003",
+      "type": "Procurement",
       "icon": "business_center",
-      "title": "Internal Procurement Focus",
-      "description": "Centralized procurement via CPO office in Gurugram; avoid public tender portals.",
+      "title": "Closed-Loop Procurement",
+      "description": "Must register via the official vendor portal; no public tenders for facility maintenance.",
       "colorClass": "blue"
     }
   ],
   "latestNews": [
     {
       "headline": "Delhivery Launches Short-Haul Parcel Service",
-      "summary": "New service launched to compete with quick-commerce and local logistics players.",
-      "details": "The initiative aims to capture market share in the short-haul segment, requiring optimized regional hub infrastructure.",
-      "source": "Economic Times"
+      "summary": "Strategic move to capture short-haul logistics market share.",
+      "details": "New service launched in two locations, signaling further infrastructure requirements for local hubs.",
+      "source": "Internal Market Intelligence"
     }
   ],
   "financials": {
-    "revenue": "\u20b9105.08 Billion",
-    "profitMargin": "Turned profitable in FY25; Q1 FY26 profit of \u20b991.1 Crore",
-    "source": "YFinance / Investor Relations"
+    "revenue": "\u20b910,508 Crore (FY26)",
+    "profitMargin": "1.45% (PAT)",
+    "source": "FY26 Financial Filings"
   },
   "previousContracts": [
     {
-      "projectName": "National Logistics Infrastructure Expansion",
-      "value": "Undisclosed",
-      "source": "Annual Report 2024-25"
+      "projectName": "Tauru Mega Gateway Infrastructure",
+      "value": "Confidential",
+      "source": "Corporate Operations"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Achieved first full year of profitability in FY25, shifting focus to operational efficiency and asset optimization.",
-      "source": "Corporate Financial Filings"
+      "updateText": "Q1 FY26 profit surged 67% to \u20b991 crore, indicating strong financial health for facility investment.",
+      "source": "Stock Exchange Disclosure"
     }
   ],
   "twitterAnalysis": {
     "sentimentScore": 35,
     "trend": "negative",
     "recentMentions": [
-      "Concerns over shipment reliability",
-      "Public criticism of last-mile delivery accountability",
-      "Positive feedback on internal employee skill development"
+      "shipment reliability",
+      "lack of accountability",
+      "customer support responsiveness"
     ]
   },
   "keyDecisionMakers": [
-    "Sahil Barua (CEO)",
-    "Kapil Bharati (CTO)",
-    "Kumar Sunny Raja (CPO)",
-    "Rahul Tiwari (Procurement Manager)"
-  ],
-  "vendorEcosystem": [
-    {
-      "name": "Internal Procurement Office",
-      "relation": "Centralized decision-making for all facility and infrastructure vendors"
-    }
+    "Sahil Barua (Co-Founder)",
+    "Suraj Saharan (Co-Founder)",
+    "Kapil Bharati (Co-Founder)",
+    "Mohit Tandon (Co-Founder)",
+    "Bhavesh Manglani (Co-Founder)"
   ],
   "upcomingProjects": [
-    "Expansion of automated sorting centers",
-    "Regional hub infrastructure upgrades",
-    "Short-haul parcel network scaling"
+    "Expansion of PTL (Partial Truckload) network capacity",
+    "Scaling of 'Delhivery Rapid' micro-fulfillment centers",
+    "Infrastructure upgrades for new regional gateways"
   ]
 }

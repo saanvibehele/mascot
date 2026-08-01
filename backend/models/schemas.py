@@ -46,10 +46,6 @@ class LatestUpdate(BaseModel):
     updateText: str
     source: str
 
-class VendorRelation(BaseModel):
-    name: str
-    relation: str
-
 class OpportunityData(BaseModel):
     id: str
     companyName: str
@@ -70,16 +66,15 @@ class OpportunityData(BaseModel):
     twitterAnalysis: TwitterSensitivity
     
     keyDecisionMakers: List[str]
-    vendorEcosystem: List[VendorRelation]
     upcomingProjects: List[str]
 
 class Prospect(BaseModel):
     id: str
     companyName: str
     projectDescription: str
-    value: str
     phase: str
     aiScore: int
+    imageUrl: Optional[str] = None
 
 class ProspectList(BaseModel):
     prospects: List[Prospect]

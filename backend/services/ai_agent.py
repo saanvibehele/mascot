@@ -151,7 +151,7 @@ def news_node(state: AgentState):
     with open("news_context.txt", "w", encoding="utf-8") as file:
         file.write(search_results)
     
-    prompt = f"You are a sales intelligence agent. Goal: Find recent developments for {company}. Based on this data:\n{search_results}\n\nExplicitly extract the following if available: acquisitions, mergers, expansion, partnerships, project announcements, and sustainability initiatives. Prioritize information from Google News, Reuters, Economic Times, Business Standard, and Company press releases. Also extract if found: Upcoming Projects, Existing Vendor Ecosystem & Competitors, and Key Decision Makers."
+    prompt = f"You are a sales intelligence agent. Goal: Find recent developments for {company}. Based on this data:\n{search_results}\n\nExplicitly extract the following if available: acquisitions, mergers, expansion, partnerships, upcoming project announcements, and sustainability initiatives. Prioritize information from Google News, Reuters, Economic Times, Business Standard, and Company press releases."
     res = llm.invoke([HumanMessage(content=prompt)])
     
     return {"news_context": res.content if hasattr(res, 'content') else str(res)}

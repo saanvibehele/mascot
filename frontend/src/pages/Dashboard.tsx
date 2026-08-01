@@ -100,9 +100,8 @@ export default function Dashboard() {
             <table className="w-full text-left">
               <thead className="bg-surface-container-low border-b border-powder-sky">
                 <tr>
-                  <th className="px-lg py-md font-label-caps text-outline uppercase">Company</th>
-                  <th className="px-lg py-md font-label-caps text-outline uppercase">Project</th>
-                  <th className="px-lg py-md font-label-caps text-outline uppercase">Value</th>
+                  <th className="px-lg py-md font-label-caps text-outline uppercase text-left">Company Name</th>
+                  <th className="px-lg py-md font-label-caps text-outline uppercase text-left">Project description</th>
                   <th className="px-lg py-md font-label-caps text-outline uppercase">Stage</th>
                   <th className="px-lg py-md font-label-caps text-outline uppercase text-center">AI Score</th>
                   <th className="px-lg py-md font-label-caps text-outline uppercase">Priority</th>
@@ -111,7 +110,7 @@ export default function Dashboard() {
               <tbody className="divide-y divide-powder-sky">
                 {loading ? (
                   <tr>
-                    <td colSpan={6} className="px-lg py-xl text-center text-on-surface-variant">
+                    <td colSpan={5} className="px-lg py-xl text-center text-on-surface-variant">
                       <div className="flex flex-col items-center justify-center gap-sm">
                         <div className="w-8 h-8 rounded-full border-4 border-primary border-t-transparent animate-spin"></div>
                         <p className="font-label-caps uppercase text-sm animate-pulse">Market Researcher Agent scanning for prospects...</p>
@@ -120,7 +119,7 @@ export default function Dashboard() {
                   </tr>
                 ) : prospects.length === 0 ? (
                   <tr>
-                    <td colSpan={6} className="px-lg py-xl text-center text-on-surface-variant">
+                    <td colSpan={5} className="px-lg py-xl text-center text-on-surface-variant">
                       No prospects found.
                     </td>
                   </tr>
@@ -135,10 +134,9 @@ export default function Dashboard() {
                           <span className="font-body-md font-semibold text-on-surface hover:text-primary transition-colors">{prospect.companyName}</span>
                         </div>
                       </td>
-                      <td className="px-lg py-md font-body-sm text-on-surface-variant max-w-[200px] truncate">{prospect.projectDescription}</td>
-                      <td className="px-lg py-md font-data-md text-on-surface">{prospect.value}</td>
+                      <td className="px-lg py-md font-body-md text-on-surface-variant max-w-md truncate">{prospect.projectDescription}</td>
                       <td className="px-lg py-md">
-                        <span className="px-md py-1 bg-secondary-container/20 text-secondary rounded-full text-[12px] font-bold">{prospect.phase}</span>
+                        <span className="px-md py-1 bg-secondary-container/20 text-secondary rounded-full text-[12px] font-bold whitespace-nowrap inline-block text-center">{prospect.phase}</span>
                       </td>
                       <td className="px-lg py-md text-center">
                         <div className="relative inline-flex items-center justify-center">

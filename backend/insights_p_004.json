@@ -1,24 +1,24 @@
 {
   "id": "p_004",
   "companyName": "Godrej Properties Limited",
-  "phase": "Growth & Expansion",
-  "location": "Mumbai, India",
-  "industryLocation": "Pan-India (Gurugram, Bengaluru, Pune, Noida, Hyderabad)",
+  "phase": "Aggressive Expansion / Land Banking",
+  "location": "Mumbai, Maharashtra, India",
+  "industryLocation": "Real Estate Development",
   "lastUpdated": "2026-05-20",
   "visionStrategy": {
-    "statement": "To be the most trusted and sustainable real estate developer in India, focusing on high-growth urban markets and premium residential townships.",
-    "attribution": "Integrated Annual Report 2024-25"
+    "statement": "To be the most trusted and forward-thinking real estate developer in India by leveraging sustainable practices, innovative design, and technology-driven construction.",
+    "attribution": "Godrej Properties Corporate Profile"
   },
   "aiStrategyBrief": {
     "confidenceScore": 92,
-    "recommendation": "Position as a high-compliance, premium-grade partner capable of supporting large-scale, multi-city residential developments while mitigating the 'trust gap' in project delivery.",
-    "pitchStrategy": "Target the Contracts & Procurement department by emphasizing your ability to meet RERA-compliant, high-volume delivery schedules. Godrej is currently in an aggressive land-banking and development phase (targeting \u20b91 lakh crore revenue). Your pitch must pivot away from 'commodity supplier' to 'strategic project partner.' \n\nAddress the 'trust gap' by highlighting your firm's reliability, quality assurance, and ability to provide long-term, low-maintenance coatings that enhance the 'premium' feel of their luxury residential projects. Use the CRISIL A+ rating as a benchmark for the quality they expect from their vendors. When engaging, focus on the specific regional project leads in high-growth hubs like Noida or Bengaluru, rather than the parent entity, to ensure your solution is tailored to the specific site requirements.",
+    "recommendation": "Target the Central Procurement Cell in Mumbai with a value proposition centered on 'Project Delivery Velocity' and 'Sustainability Compliance' to support their massive \u20b932,500 crore pre-sales target.",
+    "pitchStrategy": "Position your coatings and sealants as a critical component for their 'Premium Wellness Homes' and high-end residential portfolio. Given their recent reputational challenges regarding post-sales quality, emphasize how your high-performance, long-lasting solutions reduce maintenance overhead and improve the long-term asset value for their buyers. Do not lead with price; lead with 'Risk Mitigation' and 'RERA-compliant durability'.\n\nOutmaneuver competitors by aligning with their internal 'Cost and Project Estimation' teams. Since they are currently in a high-velocity launch phase, offer a 'Just-in-Time' supply chain model that guarantees delivery to their new sites in Gurugram, Pune, and Hyderabad. Frame your product as a 'Brand Protector' that helps them bridge the gap between their marketing promises and the actual physical quality of their delivered units.",
     "keySellingPoints": [
-      "RERA-compliant documentation and transparent supply chain",
-      "High-durability, low-maintenance coatings that reduce long-term asset management costs",
-      "Scalability to support multi-city, large-scale township projects",
-      "Sustainability-focused products that align with IGBC/LEED certification goals",
-      "Proven track record in high-value, premium residential developments"
+      "High-durability coatings that minimize long-term maintenance costs for homeowners.",
+      "Sustainability-certified products that align with GRESB and ESG reporting standards.",
+      "Rapid-application technology to support aggressive project delivery timelines.",
+      "Proven track record in large-scale residential and township infrastructure.",
+      "Technical support for project estimation and cost-management optimization."
     ]
   },
   "signals": [
@@ -26,81 +26,71 @@
       "id": "SIG-001",
       "type": "Growth",
       "icon": "trending_up",
-      "title": "Aggressive Expansion",
-      "description": "Targeting \u20b91 lakh crore revenue potential in new projects.",
+      "title": "Aggressive Land Acquisition",
+      "description": "Acquired 14 land parcels in 2025 with \u20b926,500 crore revenue potential.",
       "colorClass": "green"
     },
     {
       "id": "SIG-002",
       "type": "Risk",
       "icon": "warning",
-      "title": "Reputational Sensitivity",
-      "description": "High volume of consumer complaints regarding project delivery timelines.",
+      "title": "Post-Sales Sentiment Gap",
+      "description": "Negative customer feedback regarding maintenance and CRM responsiveness.",
       "colorClass": "red"
     },
     {
       "id": "SIG-003",
-      "type": "Financial",
-      "icon": "account_balance",
-      "title": "Strong Financial Health",
-      "description": "70% YoY profit growth in Q4 FY26.",
+      "type": "Leadership",
+      "icon": "business_center",
+      "title": "Executive Transition",
+      "description": "Pirojsha Godrej to lead Godrej Industries Group in August 2026.",
       "colorClass": "blue"
     }
   ],
   "latestNews": [
     {
-      "headline": "Godrej Properties Reports 70% Profit Surge",
-      "summary": "Strong residential demand drives record-breaking financial performance in Q4 FY26.",
-      "details": "Consolidated profits reached \u20b91,840.66 crore, supported by high-velocity sales in major urban hubs.",
-      "source": "Financial Media / Investor Relations"
+      "headline": "Godrej Properties Reports 70% Q4 Profit Growth",
+      "summary": "Strong residential demand drives record-breaking financial performance.",
+      "details": "Profit growth driven by high-velocity sales in residential apartments across major metros.",
+      "source": "Financial Reports May 2026"
     }
   ],
   "financials": {
     "revenue": "\u20b98,410.88 Crore (FY26)",
-    "profitMargin": "32.49% growth in net profit",
-    "source": "Integrated Annual Report 2024-25 / Q4 FY26 Filings"
+    "profitMargin": "41.65% Operating Margin",
+    "source": "YFinance / Investor Relations"
   },
   "previousContracts": [
     {
-      "projectName": "Core & Shell Construction (Multi-Project)",
-      "value": "\u20b91,100 Crore",
-      "source": "Tata Projects Partnership"
+      "projectName": "General Construction Portfolio",
+      "value": "\u20b91,10,000 Lakh",
+      "source": "Corporate Procurement Records"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Promoters increased stake by 5% through a \u20b92,674 crore open market investment, signaling high internal confidence.",
-      "source": "Market News"
+      "updateText": "Targeting \u20b932,500 crore in pre-sales for FY26 with massive H2 launch pipeline.",
+      "source": "Company Press Release"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 45,
-    "trend": "Polarized",
+    "sentimentScore": 35,
+    "trend": "declining",
     "recentMentions": [
-      "Concerns regarding project delivery delays",
-      "Praise for premium design and brand equity",
-      "Discussions on stock performance and land acquisition"
+      "CRM responsiveness issues",
+      "Post-possession quality concerns",
+      "High-end marketing vs reality gap"
     ]
   },
   "keyDecisionMakers": [
-    "Pirojsha Godrej (Executive Chairman)",
-    "Contracts & Procurement Department Leads",
-    "Regional Project Managers (Mumbai/Bengaluru/NCR)"
-  ],
-  "vendorEcosystem": [
-    {
-      "name": "Tata Projects",
-      "relation": "Strategic Construction Partner"
-    },
-    {
-      "name": "HouseEazy",
-      "relation": "Proptech Investment Partner"
-    }
+    "Head of Contracts & Procurement (Mumbai Zone)",
+    "Head of Contracts & Procurement (South Zone)",
+    "Central Procurement Cell (Mumbai)"
   ],
   "upcomingProjects": [
-    "Godrej Alira (Gurugram)",
-    "Godrej Athena (Bengaluru)",
-    "Versova Residential Project (Mumbai)",
-    "Noida Sector 151 Development"
+    "Premium Wellness Homes (Gurugram)",
+    "Godrej Wagholi (Pune)",
+    "Godrej Kharadi (Pune)",
+    "Godrej Madison Avenue (Hyderabad)"
   ]
 }

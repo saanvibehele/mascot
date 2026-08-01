@@ -3,42 +3,43 @@
     {
       "id": "p_001",
       "companyName": "DLF Limited",
-      "projectDescription": "Supply of OmniCoat for large-scale residential township expansion in Gurugram and Chennai.",
-      "value": "\u20b912.5 Cr",
-      "phase": "Growth Signal",
-      "aiScore": 98
+      "projectDescription": "Massive residential township development in Gurugram requiring bulk interior/exterior emulsion for high-rise apartment blocks.",
+      "phase": "Tender Alert",
+      "aiScore": 98,
+      "imageUrl": "https://dlf-projects.co/wp-content/uploads/2025/04/96637fbaeb2801b526293643c3b19a6f48da407e-1170x737.jpg"
     },
     {
       "id": "p_002",
       "companyName": "Delhivery",
-      "projectDescription": "DuraFloor epoxy coating for new automated fulfillment centers across Tier-1 cities to handle high-frequency forklift traffic.",
-      "value": "\u20b98.2 Cr",
-      "phase": "RFQ Phase",
-      "aiScore": 94
+      "projectDescription": "Expansion of automated fulfillment centers across North India requiring high-durability epoxy floor coatings for heavy-traffic logistics zones.",
+      "phase": "Growth Signal",
+      "aiScore": 95,
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZbLAKyEBjoSS4ul2AvXoQTLDrcpkDXghUqzifHYzEOZXOOjmgyyCbOP19Ge5Nog_y3-2_6MPvxQv731E0qCe1kvhPsNqw-SHJsX5vz3M0E2Cf0ynt86nkuUvbgWfqKUXWtVxtN92qG7jC2lmcRxekJF1M083B0Z-SfGS4EInn5QpZLBct2faJ8m7x/s640/Delhivery-Headquarters.jpg"
     },
     {
       "id": "p_003",
       "companyName": "Larsen & Toubro (L&T) Infrastructure",
-      "projectDescription": "SteelGuard DTM coating for structural steel components in upcoming metro rail and bridge infrastructure projects.",
-      "value": "\u20b922.0 Cr",
-      "phase": "Tender Alert",
-      "aiScore": 91
+      "projectDescription": "Large-scale industrial steel fabrication for upcoming public infrastructure projects requiring DTM metal protection coatings.",
+      "phase": "RFQ Phase",
+      "aiScore": 92,
+      "imageUrl": "https://image.slidesharecdn.com/hcprentationlntfin-160801144329/85/larsen-and-toubro-ppt-1-638.jpg?cb=1665743301"
     },
     {
       "id": "p_004",
       "companyName": "Godrej Properties",
-      "projectDescription": "Bulk procurement of OmniCoat for interior finishing of premium residential high-rise projects in Mumbai.",
-      "value": "\u20b96.8 Cr",
-      "phase": "Growth Signal",
-      "aiScore": 87
+      "projectDescription": "New commercial office park construction in Mumbai needing cost-effective, high-coverage architectural paints for common areas and office interiors.",
+      "phase": "Tender Alert",
+      "aiScore": 88,
+      "imageUrl": "https://newprojects.99acres.com/projects/godrej_properties/godrej_one/images/ptja5dcz_large.jpg"
     },
     {
       "id": "p_005",
       "companyName": "Tata Projects",
       "projectDescription": "SteelGuard application for industrial manufacturing plant expansion and heavy equipment protection.",
-      "value": "\u20b95.5 Cr",
       "phase": "RFQ Phase",
-      "aiScore": 82
+      "aiScore": 82,
+      "imageUrl": "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/06/30/Pictures/tata-steel_7bcc7a86-7c37-11e8-98f1-ed5cda4a01f0.JPG"
+
     }
   ]
 }
