@@ -2,8 +2,7 @@ from fastapi import APIRouter, HTTPException
 import os
 import json
 from models.schemas import OpportunityData, ProspectList
-from services.ai_agent import generate_opportunity_insights
-from services.market_researcher import find_prospective_leads
+from services.orchestrator import run_market_analysis_pipeline, run_sales_strategy_pipeline
 
 router = APIRouter()
 
@@ -25,10 +24,11 @@ MOCK_OPPORTUNITY = {
   "aiStrategyBrief": {
     "confidenceScore": 88,
     "recommendation": "Pitch premium exterior emulsions immediately. The client has a history of prioritizing durability over cost for coastal projects. Highlight the 10-year weather protection warranty of our new APEX line. Additionally, recent developments indicate a strong preference for green building certifications, so position the eco-friendly sealants as a core value proposition. Ensure that the sales team highlights the long-term asset durability and reduced maintenance costs associated with our premium tier products. Early engagement with the project architects could yield a significant competitive advantage.",
-    "riskFactors": [
-      { "label": "Price Sensitivity", "value": "Low", "trendIcon": "trending_down", "colorClass": "text-success-green" },
-      { "label": "Competitor Threat", "value": "High", "trendIcon": "trending_up", "colorClass": "text-warning-orange" },
-      { "label": "Timeline Risk", "value": "Medium", "trendIcon": "trending_flat", "colorClass": "text-primary" }
+    "pitchStrategy": "Pitch premium exterior emulsions immediately. Emphasize the 10-year weather protection warranty of our new APEX line to address coastal weather concerns.",
+    "keySellingPoints": [
+      "10-year weather protection warranty",
+      "Green building certified sealants",
+      "Reduced long-term maintenance costs"
     ]
   },
   "signals": [
@@ -72,8 +72,8 @@ def get_prospects():
                 return data
                 
         # Cache miss, run the agent
-        print("Running Market Researcher agent to find prospects...")
-        result = find_prospective_leads()
+        print("Orchestrator: Running Market Analysis Pipeline...")
+        result = run_market_analysis_pipeline()
         
         # Save to cache
         with open(PROSPECTS_FILE, "w") as f:
@@ -116,8 +116,8 @@ def get_opportunity(opportunity_id: str):
     print(f"Generating insights for: {company}")
         
     try:
-        # Call the LangGraph Multi-Agent workflow
-        ai_generated_data = generate_opportunity_insights(company)
+        # Call the Orchestrator Sales Strategy Pipeline
+        ai_generated_data = run_sales_strategy_pipeline(company)
         ai_generated_data["id"] = opportunity_id
         
         # Save generated insights to cache

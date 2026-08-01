@@ -1,83 +1,85 @@
 {
   "id": "p_003",
-  "companyName": "Larsen & Toubro",
-  "phase": "Execution & Procurement",
+  "companyName": "Larsen & Toubro (L&T) Infrastructure",
+  "phase": "Growth & Expansion",
   "location": "Mumbai, India",
-  "industryLocation": "Global Infrastructure & EPC",
-  "lastUpdated": "2024-05-22",
+  "industryLocation": "Global Engineering & Construction",
+  "lastUpdated": "2026-07-20",
   "visionStrategy": {
-    "statement": "Focus on high-tech manufacturing, international infrastructure expansion, and operational efficiency to maintain market leadership.",
-    "attribution": "L&T Corporate Strategy"
+    "statement": "Taking India to the world through tech-led engineering, digital transformation, and sustainable infrastructure development.",
+    "attribution": "S. N. Subrahmanyan, Chairman & Managing Director"
   },
   "aiStrategyBrief": {
     "confidenceScore": 92,
-    "recommendation": "Shift from premium pricing to a Total Cost of Ownership (TCO) model. Emphasize durability and application efficiency to address their current EBITDA pressure while positioning as a high-capacity, pre-vetted partner via their official vendor portal.",
-    "riskFactors": [
-      {
-        "label": "EBITDA Pressure",
-        "value": "3% YoY decline",
-        "trendIcon": "trending_down",
-        "colorClass": "text-red-600"
-      },
-      {
-        "label": "Operational Expenses",
-        "value": "Rising",
-        "trendIcon": "arrow_upward",
-        "colorClass": "text-orange-500"
-      }
+    "recommendation": "Adopt a 'Project-Specific EPC Alignment' strategy. Do not approach as a general vendor; position as a specialized technical partner for high-rise and urban redevelopment projects.",
+    "pitchStrategy": "Your entry point must be the specific business vertical (e.g., Buildings & Factories) rather than the corporate conglomerate. L&T is currently prioritizing speed and efficiency in their Mumbai high-rise redevelopment projects. Pitch your coatings and sealants as 'performance-accelerators' that reduce maintenance cycles and align with their precast construction timelines. \n\nOutmaneuver competitors by emphasizing your ability to meet international compliance standards, which is critical for L&T's global footprint. Avoid generic sales pitches; instead, reference their recent shift toward high-margin urban redevelopment. Frame your product as a risk-mitigation tool that protects their brand equity and long-term asset value. Ensure all communication is routed through official procurement channels to respect their strict anti-fraud and compliance protocols.",
+    "keySellingPoints": [
+      "High-performance durability for 120m+ high-rise structures",
+      "Compatibility with advanced precast construction methods",
+      "International compliance and global supply chain support",
+      "Reduced long-term maintenance costs for premium realty assets",
+      "Proven track record in large-scale infrastructure project delivery"
     ]
   },
   "signals": [
     {
       "id": "SIG-001",
-      "type": "Opportunity",
-      "icon": "business_center",
-      "title": "High-Volume Infrastructure Pipeline",
-      "description": "Consistent 7% YoY revenue growth indicates massive ongoing project requirements for protective and anti-corrosive coatings.",
-      "colorClass": "text-green-600"
+      "type": "Growth",
+      "icon": "trending_up",
+      "title": "Record Order Inflows",
+      "description": "Strong pipeline of high-value infrastructure and realty projects.",
+      "colorClass": "green"
     },
     {
       "id": "SIG-002",
-      "type": "Warning",
+      "type": "Risk",
       "icon": "warning",
-      "title": "Procurement Sensitivity",
-      "description": "Sequential profit decline of 22% necessitates a value-engineered sales approach focusing on cost-saving efficiencies.",
-      "colorClass": "text-amber-600"
+      "title": "Strict Procurement Compliance",
+      "description": "Zero tolerance for unofficial solicitations; must use official vendor portals.",
+      "colorClass": "red"
+    },
+    {
+      "id": "SIG-003",
+      "type": "Strategy",
+      "icon": "business_center",
+      "title": "Portfolio Streamlining",
+      "description": "Divestment of non-core assets to focus on core EPC competencies.",
+      "colorClass": "blue"
     }
   ],
   "latestNews": [
     {
-      "headline": "L&T Reports 14% YoY Profit Growth",
-      "summary": "Strong financial performance in Q1 FY27 despite operational cost headwinds.",
-      "details": "Net profit reached Rs 4,123 crore, driven by robust infrastructure project execution.",
-      "source": "Financial Reports"
+      "headline": "L&T Secures Major Mumbai Housing Redevelopment Project",
+      "summary": "Contract for 26 high-rise towers using advanced precast technology.",
+      "details": "The project involves 120-meter tall towers, signaling a massive demand for high-performance building materials.",
+      "source": "The Machine Maker"
     }
   ],
   "financials": {
-    "revenue": "7% YoY Growth",
-    "profitMargin": "Rs 4,123 crore (14% YoY increase)",
-    "source": "Q1 FY27 Financial Summary"
+    "revenue": "\u20b92.86 lakh crore",
+    "profitMargin": "18% growth in recurring profit",
+    "source": "FY 2025-26 Financial Report"
   },
   "previousContracts": [
     {
-      "projectName": "International Infrastructure Expansion",
-      "value": "\u20b95,000 crore",
-      "source": "Market Intelligence"
+      "projectName": "Mumbai High-Rise Redevelopment",
+      "value": "Large-scale EPC Contract",
+      "source": "Corporate Press Release"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Prioritize registration on myzone.larsentoubro.com to access high-value procurement opportunities.",
-      "source": "Procurement Intelligence"
+      "updateText": "L&T is actively expanding its land bank in the NCR region via the acquisition of International Green Scapes Ltd.",
+      "source": "Business Standard"
     }
   ],
   "twitterAnalysis": {
     "sentimentScore": 85,
-    "trend": "Positive",
+    "trend": "positive",
     "recentMentions": [
-      "L&T as a pillar of national infrastructure",
-      "High institutional trust",
-      "Modernization of hi-tech manufacturing"
+      "L&T as a bellwether for Indian economy",
+      "Infrastructure sector leadership",
+      "Digital transformation in construction"
     ]
   }
 }

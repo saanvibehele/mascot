@@ -6,6 +6,7 @@ export default function OpportunityDetails() {
     const { id } = useParams();
     const [data, setData] = useState<OpportunityData | null>(null);
     const [loading, setLoading] = useState(true);
+    const [activeStrategyTab, setActiveStrategyTab] = useState<'overview' | 'pitch'>('overview');
 
     useEffect(() => {
         async function fetchOpportunity() {
@@ -123,14 +124,14 @@ export default function OpportunityDetails() {
             <div className="grid grid-cols-12 gap-lg">
                 {/* AI Strategy Brief (6 columns) */}
                 <div className="col-span-12 lg:col-span-6 flex flex-col">
-                    <section className="bg-primary-container/20 rounded-xl p-lg relative overflow-hidden shadow-sm border border-outline-variant flex-1 h-full">
+                    <section className="bg-primary-container/20 rounded-xl p-lg relative overflow-hidden shadow-sm border border-outline-variant flex-1 flex flex-col">
                         <div className="absolute top-0 right-0 p-4 opacity-5">
                             <span className="material-symbols-outlined text-[120px] text-primary">
                                 smart_toy
                             </span>
                         </div>
-                        <div className="relative z-10 h-full flex flex-col">
-                            <div className="flex items-center justify-between mb-lg">
+                        <div className="relative z-10 flex-1 flex flex-col min-h-0">
+                            <div className="flex items-center justify-between mb-lg shrink-0">
                                 <h3 className="font-headline-md text-primary flex items-center gap-sm">
                                     <span
                                         className="material-symbols-outlined"
@@ -151,49 +152,66 @@ export default function OpportunityDetails() {
                                     </span>
                                 </div>
                             </div>
-                            <div className="space-y-md flex-1">
-                                <div className="bg-surface-container-lowest p-md rounded-lg border border-powder-sky">
-                                    <p className="font-label-caps text-label-caps text-primary uppercase mb-xs">
-                                        Mascot Recommendation
-                                    </p>
-                                    <p className="font-body-md text-ink-dark leading-relaxed">
-                                        {data.aiStrategyBrief.recommendation}
-                                    </p>
+                            
+                            {/* Tabs Header */}
+                            <div className="flex items-center gap-md border-b border-outline-variant mb-md pb-xs shrink-0">
+                                <button
+                                    onClick={() => setActiveStrategyTab('overview')}
+                                    className={`font-label-caps text-label-caps uppercase pb-xs border-b-2 transition-colors ${activeStrategyTab === 'overview' ? 'border-primary text-primary font-bold' : 'border-transparent text-on-surface-variant hover:text-ink-dark'}`}
+                                >
+                                    Overview
+                                </button>
+                                <button
+                                    onClick={() => setActiveStrategyTab('pitch')}
+                                    className={`font-label-caps text-label-caps uppercase pb-xs border-b-2 transition-colors ${activeStrategyTab === 'pitch' ? 'border-primary text-primary font-bold' : 'border-transparent text-on-surface-variant hover:text-ink-dark'}`}
+                                >
+                                    Pitch Strategy
+                                </button>
+                            </div>
+
+                            <div className="flex-1 grid grid-cols-1">
+                                {/* Overview Tab */}
+                                <div className={`col-start-1 row-start-1 flex flex-col gap-md transition-all duration-300 ease-out transform ${activeStrategyTab === 'overview' ? 'opacity-100 translate-y-0 z-10' : 'opacity-0 translate-y-2 z-0 pointer-events-none'}`}>
+                                    <div className="bg-surface-container-lowest p-md rounded-lg border border-powder-sky flex flex-col shrink-0 w-full">
+                                        <p className="font-label-caps text-label-caps text-primary uppercase mb-xs">
+                                            Mascot Recommendation
+                                        </p>
+                                        <p className="font-body-md text-ink-dark leading-relaxed">
+                                            {data.aiStrategyBrief.recommendation}
+                                        </p>
+                                    </div>
+                                    <div className="bg-surface-container-lowest p-md rounded-lg border border-powder-sky flex flex-col shrink-0 w-full">
+                                        <p className="font-label-caps text-label-caps text-primary uppercase mb-xs flex items-center gap-xs">
+                                            <span className="material-symbols-outlined text-[16px]">check_circle</span>
+                                            Key Selling Points
+                                        </p>
+                                        <ul className="list-disc pl-5 mt-2 space-y-1">
+                                            {data.aiStrategyBrief.keySellingPoints.map((point, idx) => (
+                                                <li key={idx} className="font-body-md text-ink-dark">{point}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div className="grid grid-cols-2 gap-md">
-                                    {data.aiStrategyBrief.riskFactors.map(
-                                        (risk, idx) => (
-                                            <div
-                                                key={idx}
-                                                className="bg-surface-container-lowest p-md rounded-lg border border-powder-sky"
-                                            >
-                                                <p className="font-label-caps text-label-caps text-on-surface-variant uppercase mb-xs">
-                                                    {risk.label}
-                                                </p>
-                                                <div className="flex items-center gap-sm">
-                                                    <span
-                                                        className={`font-data-lg ${risk.colorClass}`}
-                                                    >
-                                                        {risk.value}
-                                                    </span>
-                                                    <span
-                                                        className={`material-symbols-outlined ${risk.colorClass}`}
-                                                    >
-                                                        {risk.trendIcon
-                                                            .toLowerCase()
-                                                            .replace(/-/g, "_")}
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        ),
-                                    )}
+                                
+                                {/* Pitch Strategy Tab */}
+                                <div className={`col-start-1 row-start-1 flex flex-col transition-all duration-300 ease-out transform ${activeStrategyTab === 'pitch' ? 'opacity-100 translate-y-0 z-10' : 'opacity-0 translate-y-2 z-0 pointer-events-none'}`}>
+                                    <div className="bg-surface-container-lowest p-md rounded-lg border border-powder-sky flex flex-col h-full w-full">
+                                        <p className="font-label-caps text-label-caps text-primary uppercase mb-xs shrink-0">
+                                            Pitch Strategy
+                                        </p>
+                                        <div className="flex-1 overflow-y-auto pr-2 min-h-0" style={{ scrollbarWidth: 'thin' }}>
+                                            <p className="font-body-md text-ink-dark leading-relaxed">
+                                                {data.aiStrategyBrief.pitchStrategy}
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </section>
                 </div>
 
-                {/* Vision, Financials, and Twitter Sentiment (6 columns) */}
+                {/* Context Cards Column (6 columns) */}
                 <div className="col-span-12 lg:col-span-6 space-y-lg flex flex-col">
                     {/* Vision & Strategy */}
                     <div className="bg-surface-container-low rounded-xl p-lg border border-outline-variant flex-1">
@@ -254,7 +272,7 @@ export default function OpportunityDetails() {
                                     forum
                                 </span>
                                 <h5 className="font-label-caps text-label-caps uppercase">
-                                    Social Sentiment (Twitter)
+                                    Social Sentiment
                                 </h5>
                             </div>
                             <span className="px-3 py-1 bg-success-green/20 text-success-green text-[12px] rounded-full font-bold uppercase">
@@ -263,7 +281,7 @@ export default function OpportunityDetails() {
                         </div>
                         <div className="flex items-center gap-md mb-md">
                             <div
-                                className="w-16 h-16 rounded-full circular-progress relative flex items-center justify-center"
+                                className="w-16 h-16 rounded-full circular-progress relative flex items-center justify-center shrink-0"
                                 style={
                                     {
                                         "--progress": `${(data.twitterAnalysis.sentimentScore / 100) * 360}deg`,
@@ -280,13 +298,6 @@ export default function OpportunityDetails() {
                                 on recent sentiment tracking.
                             </p>
                         </div>
-                        <ul className="text-[12px] text-on-surface-variant list-disc pl-4 space-y-1">
-                            {data.twitterAnalysis.recentMentions.map(
-                                (mention, i) => (
-                                    <li key={i}>{mention}</li>
-                                ),
-                            )}
-                        </ul>
                     </div>
                 </div>
 

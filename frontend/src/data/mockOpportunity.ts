@@ -10,12 +10,8 @@ export interface Prospect {
 export interface AIStrategyBrief {
     confidenceScore: number;
     recommendation: string;
-    riskFactors: {
-        label: string;
-        value: string;
-        trendIcon: string;
-        colorClass: string;
-    }[];
+    pitchStrategy: string;
+    keySellingPoints: string[];
 }
 
 export interface VisionStrategy {
@@ -96,19 +92,11 @@ export const mockOpportunityData: OpportunityData = {
         confidenceScore: 94,
         recommendation:
             "Prioritize WeatherShield Ultra due to forecasted monsoon intensity in Worli. Competitor AkzoNobel is struggling with inventory on high-durability primers. Emphasize logistics speed. Additionally, recent developments indicate a strong preference for green building certifications, so position the eco-friendly sealants as a core value proposition. Ensure that the sales team highlights the long-term asset durability and reduced maintenance costs associated with our premium tier products. Early engagement with the project architects could yield a significant competitive advantage.",
-        riskFactors: [
-            {
-                label: "Humidity Risk",
-                value: "82%",
-                trendIcon: "humidity_percentage",
-                colorClass: "text-alert-coral",
-            },
-            {
-                label: "Pricing Delta",
-                value: "-4.2%",
-                trendIcon: "trending_down",
-                colorClass: "text-success-green",
-            },
+        pitchStrategy: "Lead with the WeatherShield Ultra's rapid-curing capabilities to address timeline concerns caused by the approaching monsoon. Position our premium line as the only viable option for luxury durability, countering competitor bulk discounts.",
+        keySellingPoints: [
+            "Rapid 12-hour curing time",
+            "10-year durability guarantee",
+            "Eco-friendly certification ready"
         ],
     },
     signals: [

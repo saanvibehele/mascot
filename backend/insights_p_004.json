@@ -1,35 +1,43 @@
 {
   "id": "p_004",
-  "companyName": "Godrej Properties",
-  "phase": "Aggressive Expansion",
-  "location": "Mumbai, India",
-  "industryLocation": "Real Estate Development",
-  "lastUpdated": "2026-05-20",
+  "companyName": "Godrej Properties Limited",
+  "phase": "Growth & Expansion",
+  "location": "Mumbai, Maharashtra, India",
+  "industryLocation": "Pan-India Real Estate Development",
+  "lastUpdated": "2026-05-22",
   "visionStrategy": {
-    "statement": "To deliver vibrant, well-crafted communities while maintaining premium brand equity through high-quality construction and sustainable development.",
-    "attribution": "Godrej Properties Corporate Strategy"
+    "statement": "To be the most trusted and sustainable real estate developer in India by leveraging the 127-year legacy of the Godrej Group to build vibrant, high-quality communities.",
+    "attribution": "Corporate Strategy & Investor Relations"
   },
   "aiStrategyBrief": {
     "confidenceScore": 92,
-    "recommendation": "Position as a 'Reliability Partner' to mitigate delivery delays and quality concerns. Focus on high-performance, eco-friendly coating solutions that align with their premium 'well-crafted' brand promise to secure upcoming FY27 project procurement.",
+    "recommendation": "Position as a high-compliance, long-term strategic partner capable of mitigating operational risks while supporting their aggressive project launch velocity.",
+    "pitchStrategy": "Target the procurement and project management leadership by emphasizing technical superiority and ESG compliance. Given the recent regulatory headwinds (BMC water ban), your pitch must lead with 'Operational Resilience'\u2014show how your coatings and sealants contribute to sustainable, long-lasting infrastructure that reduces maintenance cycles and aligns with their premium brand promise. \n\nAvoid transactional pricing discussions. Instead, frame your solution as a 'Risk Mitigation' asset. Use the 'Godrej' brand legacy to your advantage by highlighting how your products protect their reputation against post-purchase service complaints. Position your firm as a partner that understands their e-procurement rigor and is ready to integrate into their long-term contractual framework. Focus on the 'Pune-model' of customer-centricity to show you are aligned with their goal of reducing project delivery friction.",
+    "keySellingPoints": [
+      "ESG-compliant, sustainable coating solutions that support green building certifications.",
+      "High-durability sealants designed to reduce long-term maintenance costs and post-purchase service complaints.",
+      "Proven track record in large-scale, high-velocity residential and commercial project delivery.",
+      "Technical support teams aligned with the rigorous standards of the Godrej procurement hierarchy.",
+      "Supply chain reliability to ensure project timelines remain unaffected by market volatility."
+    ],
     "riskFactors": [
       {
-        "label": "Delivery Timelines",
-        "value": "High pressure to meet RERA deadlines",
+        "label": "Regulatory Sensitivity",
+        "value": "Recent municipal water bans impacting construction timelines.",
         "trendIcon": "warning",
         "colorClass": "text-red-600"
       },
       {
-        "label": "JV Complexity",
-        "value": "Procurement constraints in joint ventures",
-        "trendIcon": "business_center",
-        "colorClass": "text-amber-600"
+        "label": "Service Reputation",
+        "value": "Localized complaints regarding project delivery and maintenance.",
+        "trendIcon": "error",
+        "colorClass": "text-orange-500"
       },
       {
-        "label": "Regulatory Headwinds",
-        "value": "Construction water bans and policy shifts",
-        "trendIcon": "arrow_downward",
-        "colorClass": "text-orange-500"
+        "label": "Market Volatility",
+        "value": "Sector-wide stock pressure affecting capital allocation.",
+        "trendIcon": "trending_down",
+        "colorClass": "text-yellow-600"
       }
     ]
   },
@@ -38,57 +46,52 @@
       "id": "SIG-001",
       "type": "Growth",
       "icon": "trending_up",
-      "title": "Aggressive FY27 Booking Target",
-      "description": "\u20b939,000 crore booking target indicates massive upcoming procurement needs for finishing services.",
+      "title": "Record Profitability",
+      "description": "32.49% YoY profit surge in FY26 indicates strong capital availability for new projects.",
       "colorClass": "text-green-600"
     },
     {
       "id": "SIG-002",
-      "type": "Quality",
-      "icon": "verified",
-      "title": "Premium Brand Positioning",
-      "description": "High sensitivity to brand reputation creates demand for premium, long-warranty, and sustainable coating solutions.",
+      "type": "Procurement",
+      "icon": "business_center",
+      "title": "Structured Procurement",
+      "description": "Shift toward technical, long-term contractual relationships managed by experienced leadership.",
       "colorClass": "text-blue-600"
     }
   ],
   "latestNews": [
     {
-      "headline": "Godrej Properties Reports 70% Surge in Net Profit",
-      "summary": "Strong financial performance in Q4 FY26 provides liquidity for large-scale vendor contracts.",
-      "details": "Revenue grew by 63%, signaling significant expansion in project execution and demand for architectural coatings.",
-      "source": "Financial Market Analysis"
+      "headline": "Godrej Properties Faces Regulatory Headwinds in Mumbai",
+      "summary": "BMC construction water ban impacts short-term operational momentum.",
+      "details": "Shares dipped 4% following municipal directives, highlighting the need for vendors to provide water-efficient or compliant solutions.",
+      "source": "Market Intelligence Report"
     }
   ],
   "financials": {
-    "revenue": "63% YoY Growth",
-    "profitMargin": "\u20b9650 crore Net Profit",
-    "source": "Q4 FY26 Financial Report"
+    "revenue": "\u20b95,131 crore",
+    "profitMargin": "32.49% YoY growth",
+    "source": "FY26 Consolidated Financial Report"
   },
   "previousContracts": [
     {
-      "projectName": "The Trees, Vikhroli",
-      "value": "High-End Luxury",
-      "source": "Public Portfolio"
-    },
-    {
-      "projectName": "Godrej Vistas",
-      "value": "Premium Residential",
-      "source": "Public Portfolio"
+      "projectName": "Residential Township Development",
+      "value": "High-Value Strategic Partnership",
+      "source": "Corporate Procurement Records"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Focus on ESG/Sustainability: Increasing priority for low-VOC and eco-friendly coatings to meet modern RERA compliance.",
-      "source": "Strategic Procurement Intelligence"
+      "updateText": "Focus on increasing residential bookings and accelerating project launches in major metros.",
+      "source": "Investor Relations Q4 FY26"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 45,
-    "trend": "Polarized",
+    "sentimentScore": 78,
+    "trend": "Bullish",
     "recentMentions": [
-      "Concerns regarding post-possession build quality",
-      "Praise for luxury amenities and lifestyle branding",
-      "Frustration from NRI investors regarding maintenance"
+      "Strong support at \u20b92,000-2,100 levels",
+      "High engagement on luxury sea-view projects",
+      "Positive sentiment regarding long-term brand trust"
     ]
   }
 }

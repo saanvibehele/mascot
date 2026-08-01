@@ -1,16 +1,11 @@
 from pydantic import BaseModel
 from typing import List, Optional
 
-class RiskFactor(BaseModel):
-    label: str
-    value: str
-    trendIcon: str
-    colorClass: str
-
 class AIStrategyBrief(BaseModel):
     confidenceScore: int
     recommendation: str
-    riskFactors: List[RiskFactor]
+    pitchStrategy: str
+    keySellingPoints: List[str]
 
 
 class VisionStrategy(BaseModel):

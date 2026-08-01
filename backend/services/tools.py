@@ -29,6 +29,22 @@ def social_sentiment_search(query: str) -> str:
     """
     return search.run(query)
 
+@tool
+def company_info_search(query: str) -> str:
+    """
+    Search the web for general company information, leadership, recent acquisitions, and overall business strategy.
+    Input should be a search query string, e.g. 'Lodha Group company profile leadership'.
+    """
+    return search.run(query)
+
+@tool
+def procurement_tender_search(query: str) -> str:
+    """
+    Search the web specifically for procurement processes, supply chain details, or active tenders and bids for a company.
+    Input should be a search query string, e.g. 'Lodha Group procurement vendor registration tenders'.
+    """
+    return search.run(query)
+
 # We can group them by agent if needed, or just provide them all.
 def get_tools_for_agent(agent_type: str):
     if agent_type == "financial":
@@ -37,5 +53,9 @@ def get_tools_for_agent(agent_type: str):
         return [market_news_search]
     elif agent_type == "social":
         return [social_sentiment_search]
+    elif agent_type == "company":
+        return [company_info_search]
+    elif agent_type == "procurement":
+        return [procurement_tender_search]
     else:
-        return [market_news_search, financial_tender_search, social_sentiment_search]
+        return [market_news_search, financial_tender_search, social_sentiment_search, company_info_search, procurement_tender_search]

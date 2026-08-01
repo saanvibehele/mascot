@@ -3,42 +3,42 @@
     {
       "id": "p_001",
       "companyName": "DLF Limited",
-      "projectDescription": "Interior and exterior finishing for the new luxury residential township project in Gurugram.",
+      "projectDescription": "Supply of OmniCoat for large-scale residential township expansion in Gurugram and Chennai.",
       "value": "\u20b912.5 Cr",
-      "phase": "RFQ Phase",
-      "aiScore": 94
+      "phase": "Growth Signal",
+      "aiScore": 98
     },
     {
       "id": "p_002",
       "companyName": "Delhivery",
-      "projectDescription": "Floor coating requirements for new automated fulfillment centers being established across North India.",
-      "value": "\u20b95.8 Cr",
-      "phase": "Growth Signal",
-      "aiScore": 88
+      "projectDescription": "DuraFloor epoxy coating for new automated fulfillment centers across Tier-1 cities to handle high-frequency forklift traffic.",
+      "value": "\u20b98.2 Cr",
+      "phase": "RFQ Phase",
+      "aiScore": 94
     },
     {
       "id": "p_003",
-      "companyName": "Larsen & Toubro",
-      "projectDescription": "Supply of DTM metal coatings for structural steel components in upcoming metro rail infrastructure projects.",
+      "companyName": "Larsen & Toubro (L&T) Infrastructure",
+      "projectDescription": "SteelGuard DTM coating for structural steel components in upcoming metro rail and bridge infrastructure projects.",
       "value": "\u20b922.0 Cr",
       "phase": "Tender Alert",
-      "aiScore": 97
+      "aiScore": 91
     },
     {
       "id": "p_004",
       "companyName": "Godrej Properties",
-      "projectDescription": "Bulk procurement of architectural emulsions for the 'Godrej Woods' residential development phase.",
-      "value": "\u20b98.2 Cr",
-      "phase": "RFQ Phase",
-      "aiScore": 91
+      "projectDescription": "Bulk procurement of OmniCoat for interior finishing of premium residential high-rise projects in Mumbai.",
+      "value": "\u20b96.8 Cr",
+      "phase": "Growth Signal",
+      "aiScore": 87
     },
     {
       "id": "p_005",
       "companyName": "Tata Projects",
-      "projectDescription": "Corrosion protection coatings for industrial equipment and steel frameworks in new manufacturing plant construction.",
-      "value": "\u20b915.4 Cr",
-      "phase": "Tender Alert",
-      "aiScore": 85
+      "projectDescription": "SteelGuard application for industrial manufacturing plant expansion and heavy equipment protection.",
+      "value": "\u20b95.5 Cr",
+      "phase": "RFQ Phase",
+      "aiScore": 82
     }
   ]
 }
