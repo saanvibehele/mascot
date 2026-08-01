@@ -46,6 +46,10 @@ class LatestUpdate(BaseModel):
     updateText: str
     source: str
 
+class VendorRelation(BaseModel):
+    name: str
+    relation: str
+
 class OpportunityData(BaseModel):
     id: str
     companyName: str
@@ -64,6 +68,10 @@ class OpportunityData(BaseModel):
     previousContracts: List[Contract]
     latestUpdates: List[LatestUpdate]
     twitterAnalysis: TwitterSensitivity
+    
+    keyDecisionMakers: List[str]
+    vendorEcosystem: List[VendorRelation]
+    upcomingProjects: List[str]
 
 class Prospect(BaseModel):
     id: str

@@ -1,24 +1,24 @@
 {
   "id": "p_004",
   "companyName": "Godrej Properties Limited",
-  "phase": "Expansion & Aggressive Land Acquisition",
+  "phase": "Growth & Expansion",
   "location": "Mumbai, India",
-  "industryLocation": "Pan-India (15+ cities)",
-  "lastUpdated": "2026-07-25",
+  "industryLocation": "Pan-India (Gurugram, Bengaluru, Pune, Noida, Hyderabad)",
+  "lastUpdated": "2026-05-20",
   "visionStrategy": {
-    "statement": "To be the most trusted and sustainable real estate developer in India, focusing on vibrant, well-crafted communities.",
-    "attribution": "Godrej Properties Corporate Philosophy"
+    "statement": "To be the most trusted and sustainable real estate developer in India, focusing on high-growth urban markets and premium residential townships.",
+    "attribution": "Integrated Annual Report 2024-25"
   },
   "aiStrategyBrief": {
-    "confidenceScore": 95,
-    "recommendation": "Position as a 'Speed-to-Market' partner to mitigate RERA-related delivery risks while aligning with their premium sustainability standards.",
-    "pitchStrategy": "Target the 'Contracts & Procurement' department by emphasizing technical efficiency and project management reliability. Godrej is currently under pressure to deliver on a massive pipeline (e.g., \u20b922,000 Cr in H2 FY26). Your pitch must pivot away from 'commodity supplier' to 'project risk mitigator.' Highlight how your high-performance coatings and sealants reduce maintenance cycles and accelerate finishing phases, directly addressing their need to avoid RERA-related delays.\n\nWhen engaging, reference their recent \u20b91,100 Cr partnership with Tata Projects as a benchmark for the quality and scale they expect. Use the 'premium' narrative of their Vikhroli projects to justify higher-spec, long-lasting coating solutions that protect their brand reputation. If you encounter resistance regarding cost, pivot to 'Total Cost of Ownership' (TCO) and the long-term asset value protection that premium sealants provide for their luxury portfolio.",
+    "confidenceScore": 92,
+    "recommendation": "Position as a high-compliance, premium-grade partner capable of supporting large-scale, multi-city residential developments while mitigating the 'trust gap' in project delivery.",
+    "pitchStrategy": "Target the Contracts & Procurement department by emphasizing your ability to meet RERA-compliant, high-volume delivery schedules. Godrej is currently in an aggressive land-banking and development phase (targeting \u20b91 lakh crore revenue). Your pitch must pivot away from 'commodity supplier' to 'strategic project partner.' \n\nAddress the 'trust gap' by highlighting your firm's reliability, quality assurance, and ability to provide long-term, low-maintenance coatings that enhance the 'premium' feel of their luxury residential projects. Use the CRISIL A+ rating as a benchmark for the quality they expect from their vendors. When engaging, focus on the specific regional project leads in high-growth hubs like Noida or Bengaluru, rather than the parent entity, to ensure your solution is tailored to the specific site requirements.",
     "keySellingPoints": [
-      "Accelerated application timelines to support aggressive project delivery schedules.",
-      "High-durability, weather-resistant coatings that protect premium asset value in diverse Indian climates.",
-      "Sustainability-certified products aligning with Godrej's 'vibrant communities' and green building initiatives.",
-      "Proven track record of supporting large-scale, Tier-1 construction projects.",
-      "Technical support and on-site application training to ensure zero-defect finishing."
+      "RERA-compliant documentation and transparent supply chain",
+      "High-durability, low-maintenance coatings that reduce long-term asset management costs",
+      "Scalability to support multi-city, large-scale township projects",
+      "Sustainability-focused products that align with IGBC/LEED certification goals",
+      "Proven track record in high-value, premium residential developments"
     ]
   },
   "signals": [
@@ -26,52 +26,81 @@
       "id": "SIG-001",
       "type": "Growth",
       "icon": "trending_up",
-      "title": "Aggressive Land Banking",
-      "description": "Recent acquisitions in Noida, Gurugram, and Hyderabad signal immediate demand for construction materials and finishing services.",
+      "title": "Aggressive Expansion",
+      "description": "Targeting \u20b91 lakh crore revenue potential in new projects.",
       "colorClass": "green"
     },
     {
       "id": "SIG-002",
       "type": "Risk",
       "icon": "warning",
-      "title": "RERA Delivery Pressure",
-      "description": "Public scrutiny regarding project delays necessitates vendors who can guarantee speed and reliability.",
+      "title": "Reputational Sensitivity",
+      "description": "High volume of consumer complaints regarding project delivery timelines.",
       "colorClass": "red"
+    },
+    {
+      "id": "SIG-003",
+      "type": "Financial",
+      "icon": "account_balance",
+      "title": "Strong Financial Health",
+      "description": "70% YoY profit growth in Q4 FY26.",
+      "colorClass": "blue"
     }
   ],
   "latestNews": [
     {
-      "headline": "Godrej Properties Secures 4.95-Acre Plot in Noida",
-      "summary": "Strategic acquisition for \u20b9331.75 crore to fuel future residential growth.",
-      "details": "The project has an estimated revenue potential of over \u20b92,000 crore, requiring immediate procurement planning.",
-      "source": "Market News July 2026"
+      "headline": "Godrej Properties Reports 70% Profit Surge",
+      "summary": "Strong residential demand drives record-breaking financial performance in Q4 FY26.",
+      "details": "Consolidated profits reached \u20b91,840.66 crore, supported by high-velocity sales in major urban hubs.",
+      "source": "Financial Media / Investor Relations"
     }
   ],
   "financials": {
-    "revenue": "\u20b95,131.43 Crore (Consolidated FY26)",
-    "profitMargin": "41.65% Operating Margin",
-    "source": "FY26 Annual Report"
+    "revenue": "\u20b98,410.88 Crore (FY26)",
+    "profitMargin": "32.49% growth in net profit",
+    "source": "Integrated Annual Report 2024-25 / Q4 FY26 Filings"
   },
   "previousContracts": [
     {
-      "projectName": "Core & Shell Construction (Various)",
+      "projectName": "Core & Shell Construction (Multi-Project)",
       "value": "\u20b91,100 Crore",
       "source": "Tata Projects Partnership"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Nadir Godrej to step down from the Board in August 2026; transition expected to be smooth.",
-      "source": "Corporate Governance Filing"
+      "updateText": "Promoters increased stake by 5% through a \u20b92,674 crore open market investment, signaling high internal confidence.",
+      "source": "Market News"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 75,
-    "trend": "Bullish",
+    "sentimentScore": 45,
+    "trend": "Polarized",
     "recentMentions": [
-      "Godrej Vistas Vikhroli",
-      "Godrej Vanantara Bengaluru",
-      "Stock Market Performance"
+      "Concerns regarding project delivery delays",
+      "Praise for premium design and brand equity",
+      "Discussions on stock performance and land acquisition"
     ]
-  }
+  },
+  "keyDecisionMakers": [
+    "Pirojsha Godrej (Executive Chairman)",
+    "Contracts & Procurement Department Leads",
+    "Regional Project Managers (Mumbai/Bengaluru/NCR)"
+  ],
+  "vendorEcosystem": [
+    {
+      "name": "Tata Projects",
+      "relation": "Strategic Construction Partner"
+    },
+    {
+      "name": "HouseEazy",
+      "relation": "Proptech Investment Partner"
+    }
+  ],
+  "upcomingProjects": [
+    "Godrej Alira (Gurugram)",
+    "Godrej Athena (Bengaluru)",
+    "Versova Residential Project (Mumbai)",
+    "Noida Sector 151 Development"
+  ]
 }

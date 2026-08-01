@@ -75,6 +75,13 @@ export interface OpportunityData {
         source: string; // Their own website, DGFT, Volza, Zauba
     }[];
     twitterAnalysis: TwitterSensitivity;
+    
+    keyDecisionMakers: string[];
+    vendorEcosystem: {
+        name: string;
+        relation: string;
+    }[];
+    upcomingProjects: string[];
 }
 
 export const mockOpportunityData: OpportunityData = {
@@ -168,4 +175,28 @@ export const mockOpportunityData: OpportunityData = {
             "Competitors feeling the heat from new launch",
         ],
     },
+    keyDecisionMakers: [
+        "Abhishek Lodha (MD & CEO)",
+        "Shaishav Dharia (CEO - Townships)",
+        "Sathish Rao (Head of Procurement)"
+    ],
+    vendorEcosystem: [
+        {
+            name: "L&T Construction",
+            relation: "Primary EPC contractor for their commercial hubs."
+        },
+        {
+            name: "Tata Consulting Engineers",
+            relation: "Lead design consultants for sustainability projects."
+        },
+        {
+            name: "AkzoNobel",
+            relation: "Existing paints partner; vulnerable to our new rapid-cure pitch."
+        }
+    ],
+    upcomingProjects: [
+        "Lodha Woods Residential Complex (Thane)",
+        "Palava Phase 3 Expansion",
+        "Worli Commercial Hub"
+    ]
 };

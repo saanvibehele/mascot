@@ -1,90 +1,109 @@
 {
   "id": "p_005",
   "companyName": "Tata Projects Limited",
-  "phase": "Growth & Expansion",
-  "location": "Secunderabad, Hyderabad, Telangana",
-  "industryLocation": "India",
-  "lastUpdated": "2026-07-25",
+  "phase": "Growth & Strategic Restructuring",
+  "location": "Mumbai, India",
+  "industryLocation": "Global EPC & Infrastructure",
+  "lastUpdated": "2026-07-20",
   "visionStrategy": {
-    "statement": "To be a technology-led, sustainable EPC leader delivering complex infrastructure with a focus on modular execution and long-term profitability.",
-    "attribution": "Vinayak Pai, CEO"
+    "statement": "To be a technology-led organization delivering complex infrastructure projects with a focus on sustainability, safety, and predictability.",
+    "attribution": "Vinayak Pai, MD & CEO"
   },
   "aiStrategyBrief": {
     "confidenceScore": 92,
-    "recommendation": "Position as a high-performance, sustainable coating and sealant partner for specialized industrial and semiconductor infrastructure projects.",
-    "pitchStrategy": "Target the 'Technology-Led EPC' narrative. Tata Projects is moving away from legacy issues toward high-precision, modular construction (e.g., Micron semiconductor plant, SAF projects). Your pitch must emphasize 'Performance Under Pressure'\u2014specifically how your coatings/sealants reduce maintenance cycles in high-stakes environments like nuclear facilities or semiconductor cleanrooms. \n\nAvoid generic 'construction supply' messaging. Instead, align with their sustainability goals by highlighting low-VOC, high-durability products that extend the lifecycle of their infrastructure. Leverage their 'in-office' culture by proposing on-site technical demonstrations and collaborative engineering workshops with their project managers. Position your firm as a technical partner that helps them meet the rigorous quality standards required for their high-profile joint ventures (e.g., Daewoo E&C, Godrej Properties).",
+    "recommendation": "Position as a high-reliability, ESG-compliant partner capable of integrating with their digital-first, tech-driven construction workflows.",
+    "pitchStrategy": "Your pitch must pivot away from 'commodity supplier' and toward 'strategic project partner.' Tata Projects is currently obsessed with predictability and safety in high-stakes environments like semiconductor fabs and green hydrogen plants. When engaging, emphasize your ability to provide high-performance coatings and sealants that are not only durable but also environmentally certified (ESG-compliant). \n\nOutmaneuver competitors like L&T by highlighting your digital integration capabilities\u2014show how your product data (BIM-ready specs, digital material tracking) fits into their AI-driven project management systems. Since they prioritize long-term trust and ethical partnerships, lead with case studies that demonstrate your track record in large-scale industrial infrastructure. Avoid generic sales language; focus on how your solutions reduce maintenance cycles and enhance the longevity of their 'new, profitable' project portfolio.",
     "keySellingPoints": [
-      "High-durability, low-maintenance coatings for extreme industrial environments",
-      "Sustainability-certified products aligning with Tata's green infrastructure goals",
-      "Technical support for modular, rapid-execution construction timelines",
-      "Proven track record in high-compliance sectors like nuclear and semiconductor manufacturing",
-      "Collaborative engineering support for complex, large-scale civil projects"
+      "ESG-compliant and sustainable coating formulations",
+      "BIM-ready technical documentation for digital integration",
+      "Proven durability in high-stress industrial environments (Semiconductor/Hydrocarbon)",
+      "Safety-first application protocols aligned with Tata's rigorous standards",
+      "Supply chain reliability for large-scale, time-sensitive infrastructure projects"
     ]
   },
   "signals": [
     {
-      "id": "SIG-001",
-      "type": "Growth",
+      "id": "sig-001",
+      "type": "strategic_shift",
       "icon": "trending_up",
-      "title": "Semiconductor Expansion",
-      "description": "Executing India's first major semiconductor plant for Micron, requiring specialized, high-purity construction materials.",
+      "title": "Focus on High-Margin Projects",
+      "description": "Company is shifting toward profitable, complex EPC projects like semiconductor fabs and green hydrogen.",
       "colorClass": "green"
     },
     {
-      "id": "SIG-002",
-      "type": "Strategic",
-      "icon": "business_center",
-      "title": "Luxury Residential Pivot",
-      "description": "New \u20b91,100 crore partnership with Godrej Properties for core-and-shell construction.",
+      "id": "sig-002",
+      "type": "sustainability",
+      "icon": "eco",
+      "title": "ESG & Sustainability Mandate",
+      "description": "Increasing emphasis on green materials for data centers and sustainable infrastructure.",
       "colorClass": "blue"
     },
     {
-      "id": "SIG-003",
-      "type": "Risk",
+      "id": "sig-003",
+      "type": "risk_alert",
       "icon": "warning",
-      "title": "High Compliance Standards",
-      "description": "Strict adherence to RERA and nuclear-grade safety standards required for all vendor materials.",
+      "title": "Regulatory Scrutiny",
+      "description": "Standard disclosure of ongoing legal proceedings in large-scale EPC projects requires high-compliance vendors.",
       "colorClass": "orange"
     }
   ],
   "latestNews": [
     {
-      "headline": "Tata Projects Partners for Sustainable Aviation Fuel",
-      "summary": "Selected as the EPC partner for SAF One's sustainable aviation fuel project.",
-      "details": "Focus on modular execution and standardized designs for sustainable infrastructure.",
-      "source": "Industry Reports"
+      "headline": "Partnership with Godrej Properties",
+      "summary": "Tata Projects secured a \u20b91,100 crore contract for a luxury project in Gurgaon.",
+      "details": "This highlights their continued expansion into high-end urban infrastructure alongside their industrial portfolio.",
+      "source": "Industry News, May 2026"
     }
   ],
   "financials": {
-    "revenue": "\u20b917,565 crore (FY2025)",
-    "profitMargin": "Positive growth trend; returned to profitability",
-    "source": "Internal Financial Reports"
+    "revenue": "\u20b917,470.59 crore",
+    "profitMargin": "Strategic focus on high-margin projects",
+    "source": "FY25 Financial Disclosure"
   },
   "previousContracts": [
     {
-      "projectName": "Indore Metro Phase 1 (Underground)",
-      "value": "\u20b92,191 crore",
-      "source": "Public Tender Records"
+      "projectName": "Noida International Airport (Jewar)",
+      "value": "Large-scale infrastructure",
+      "source": "Company Press Release"
     },
     {
-      "projectName": "NPCIL Nuclear Infrastructure",
-      "value": "$321 million",
-      "source": "Corporate Portfolio"
+      "projectName": "Micron Technology Semiconductor Facility",
+      "value": "Strategic Industrial",
+      "source": "Project Portfolio"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Buildings and Infrastructure division targeting \u20b960,000\u201370,000 crore order book by 2030.",
-      "source": "COO Raman Kapil"
+      "updateText": "Noida International Airport construction phase completed and ready for operations.",
+      "source": "Corporate Update, July 2026"
     }
   ],
   "twitterAnalysis": {
     "sentimentScore": 85,
     "trend": "positive",
     "recentMentions": [
-      "Tata Projects' commitment to sustainable data centers",
-      "Strong job security and professional culture",
-      "Leadership in complex EPC execution"
+      "Tata Projects' role in India's semiconductor ambition",
+      "Commitment to sustainable data center construction",
+      "High employee satisfaction and workplace stability"
     ]
-  }
+  },
+  "keyDecisionMakers": [
+    "Vinayak Pai (Managing Director & CEO)",
+    "Preiti Patel (Executive/Sustainability Lead)"
+  ],
+  "vendorEcosystem": [
+    {
+      "name": "eProcurement System of India",
+      "relation": "Primary procurement channel"
+    },
+    {
+      "name": "National Tenders / Tender Tiger",
+      "relation": "Sub-contracting and material sourcing platforms"
+    }
+  ],
+  "upcomingProjects": [
+    "Green Hydrogen infrastructure initiatives",
+    "Data center expansion projects",
+    "Defense-related infrastructure tenders"
+  ]
 }

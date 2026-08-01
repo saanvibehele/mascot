@@ -440,6 +440,75 @@ export default function OpportunityDetails() {
                         </div>
                     </div>
                 </div>
+
+                {/* Key Decision Makers */}
+                <div className="col-span-12 lg:col-span-4">
+                    <div className="bg-surface-container-lowest rounded-xl p-lg border border-outline-variant shadow-sm h-full">
+                        <div className="flex items-center gap-xs mb-lg">
+                            <span className="material-symbols-outlined text-primary text-[24px]">
+                                group
+                            </span>
+                            <h4 className="font-headline-sm text-ink-dark">
+                                Key Decision Makers
+                            </h4>
+                        </div>
+                        <ul className="space-y-sm">
+                            {data.keyDecisionMakers?.map((maker, i) => (
+                                <li key={i} className="flex items-start gap-sm">
+                                    <span className="material-symbols-outlined text-[18px] text-on-surface-variant mt-0.5">person</span>
+                                    <span className="font-body-md text-ink-dark">{maker}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+
+                {/* Vendor Ecosystem */}
+                <div className="col-span-12 lg:col-span-4">
+                    <div className="bg-surface-container-lowest rounded-xl p-lg border border-outline-variant shadow-sm h-full">
+                        <div className="flex items-center gap-xs mb-lg">
+                            <span className="material-symbols-outlined text-secondary text-[24px]">
+                                handshake
+                            </span>
+                            <h4 className="font-headline-sm text-ink-dark">
+                                Vendor Ecosystem
+                            </h4>
+                        </div>
+                        <ul className="space-y-md">
+                            {data.vendorEcosystem?.map((vendor, i) => (
+                                <li key={i} className="flex items-start gap-sm bg-surface-container-low p-sm rounded border border-outline-variant">
+                                    <span className="material-symbols-outlined text-[20px] text-primary mt-0.5 shrink-0">storefront</span>
+                                    <div className="flex flex-col">
+                                        <span className="font-body-md font-bold text-ink-dark">{vendor.name}</span>
+                                        <span className="text-[13px] text-on-surface-variant leading-tight mt-0.5">{vendor.relation}</span>
+                                    </div>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+
+                {/* Upcoming Projects */}
+                <div className="col-span-12 lg:col-span-4">
+                    <div className="bg-surface-container-lowest rounded-xl p-lg border border-outline-variant shadow-sm h-full">
+                        <div className="flex items-center gap-xs mb-lg">
+                            <span className="material-symbols-outlined text-tertiary text-[24px]">
+                                construction
+                            </span>
+                            <h4 className="font-headline-sm text-ink-dark">
+                                Upcoming Projects
+                            </h4>
+                        </div>
+                        <ul className="space-y-sm">
+                            {data.upcomingProjects?.map((project, i) => (
+                                <li key={i} className="flex items-start gap-sm">
+                                    <span className="material-symbols-outlined text-[18px] text-on-surface-variant mt-0.5">architecture</span>
+                                    <span className="font-body-md text-ink-dark">{project}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     );

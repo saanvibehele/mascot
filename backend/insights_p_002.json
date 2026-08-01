@@ -1,85 +1,102 @@
 {
   "id": "p_002",
   "companyName": "Delhivery",
-  "phase": "Growth & Operational Optimization",
-  "location": "Gurgaon, India",
+  "phase": "High Growth & Efficiency",
+  "location": "Gurugram, Haryana, India",
   "industryLocation": "Logistics & Supply Chain",
-  "lastUpdated": "2026-08-20",
+  "lastUpdated": "2026-08-01",
   "visionStrategy": {
-    "statement": "To build the operating system for commerce in India through a technology-first, integrated logistics network.",
+    "statement": "Consolidating the Indian logistics sector through tech-enabled infrastructure and end-to-end supply chain dominance.",
     "attribution": "Sahil Barua, CEO"
   },
   "aiStrategyBrief": {
-    "confidenceScore": 92,
-    "recommendation": "Position high-performance industrial coatings and sealants as a critical asset for 'Asset Longevity' and 'Operational Uptime' in their massive network of automated sorting centers and warehouses.",
-    "pitchStrategy": "Delhivery has successfully transitioned from a growth-at-all-costs startup to a profitable, efficiency-driven logistics powerhouse. They are no longer looking for 'cheap' solutions; they are looking for 'durable' infrastructure that minimizes maintenance downtime. Your pitch must pivot away from basic painting and toward 'Industrial Asset Protection.' \n\nFocus on how your coatings reduce floor maintenance cycles in high-traffic automated sorting hubs, improve safety through high-visibility floor markings, and protect structural steel in their massive warehousing footprint from environmental degradation. Use their recent focus on profitability as your hook: 'We help you protect your capital investments by extending the lifecycle of your physical infrastructure, directly contributing to your EBITDA goals by reducing long-term facility maintenance costs.'\n\nOutmaneuver competitors by emphasizing 'Zero-Downtime Application'\u2014highlighting fast-curing, low-VOC products that allow Delhivery to maintain 24/7 operations while facility upgrades are underway. Align your technical specs with their rigorous corporate governance and compliance standards.",
+    "confidenceScore": 85,
+    "recommendation": "Position high-performance, durable industrial coatings and sealants as a critical component of their 'infrastructure-as-a-service' model to reduce maintenance downtime in high-traffic sorting hubs.",
+    "pitchStrategy": "Approach Delhivery's procurement leadership by framing your product not as a commodity, but as an operational efficiency tool. Given their recent shift to profitability and focus on scaling, emphasize how your specialized coatings protect high-value automated sorting equipment and warehouse flooring from the wear-and-tear of 24/7 logistics operations. \n\nAddress the 'reliability' gap by highlighting how your solutions contribute to a cleaner, safer, and more durable facility environment, which indirectly supports their brand promise of service excellence. Position your firm as a partner that understands the high-velocity nature of their business, offering rapid-cure, low-VOC, and high-durability products that minimize facility downtime during application. Outmaneuver competitors by focusing on total cost of ownership (TCO) rather than unit price, demonstrating how your products extend the lifecycle of their physical assets.",
     "keySellingPoints": [
-      "High-durability, abrasion-resistant floor coatings for automated sorting centers",
-      "Fast-curing, low-VOC formulations to ensure zero-downtime facility maintenance",
-      "High-visibility safety coatings for warehouse floor marking and traffic management",
-      "Corrosion-resistant structural steel coatings for long-term asset protection",
-      "Compliance-ready documentation for ESG and safety audits"
+      "Rapid-cure technology to minimize facility downtime during maintenance",
+      "High-abrasion resistance for heavy-traffic warehouse and sorting center floors",
+      "Low-VOC and sustainable formulations aligning with corporate ESG goals",
+      "Long-term asset protection to reduce recurring capital expenditure",
+      "Customized maintenance schedules to support 24/7 operational continuity"
     ]
   },
   "signals": [
     {
       "id": "sig-001",
-      "type": "growth",
+      "type": "Growth",
       "icon": "trending_up",
-      "title": "Consistent Profitability",
-      "description": "Five consecutive quarters of profitability indicate a shift toward high-margin operational efficiency.",
+      "title": "Revenue Scaling",
+      "description": "30% YoY revenue growth in Q4 FY26, signaling aggressive infrastructure utilization.",
       "colorClass": "green"
     },
     {
       "id": "sig-002",
-      "type": "infrastructure",
-      "icon": "business_center",
-      "title": "Network Expansion",
-      "description": "Continuous investment in automated sorting centers and logistics hubs requires high-performance facility maintenance.",
-      "colorClass": "blue"
+      "type": "Risk",
+      "icon": "warning",
+      "title": "Customer Sentiment Gap",
+      "description": "Public trust issues regarding service reliability necessitate a focus on operational excellence and facility standards.",
+      "colorClass": "red"
     },
     {
       "id": "sig-003",
-      "type": "risk",
-      "icon": "warning",
-      "title": "Operational Downtime Risk",
-      "description": "High-volume logistics operations cannot afford facility maintenance delays; solutions must be rapid-cure.",
-      "colorClass": "orange"
+      "type": "Strategy",
+      "icon": "business_center",
+      "title": "Internal Procurement Focus",
+      "description": "Centralized procurement via CPO office in Gurugram; avoid public tender portals.",
+      "colorClass": "blue"
     }
   ],
   "latestNews": [
     {
-      "headline": "Delhivery Reports Surge in Profitability",
-      "summary": "PAT reached \u20b93.25 Billion in FY26, signaling strong operational efficiency.",
-      "details": "The company has successfully moved from scale-focused growth to sustainable profitability, doubling EBITDA.",
-      "source": "Financial Reports"
+      "headline": "Delhivery Launches Short-Haul Parcel Service",
+      "summary": "New service launched to compete with quick-commerce and local logistics players.",
+      "details": "The initiative aims to capture market share in the short-haul segment, requiring optimized regional hub infrastructure.",
+      "source": "Economic Times"
     }
   ],
   "financials": {
-    "revenue": "\u20b9105.08 Billion (TTM)",
-    "profitMargin": "Positive (Surge in PAT to \u20b93.25 Billion)",
-    "source": "YFinance / NSE"
+    "revenue": "\u20b9105.08 Billion",
+    "profitMargin": "Turned profitable in FY25; Q1 FY26 profit of \u20b991.1 Crore",
+    "source": "YFinance / Investor Relations"
   },
   "previousContracts": [
     {
-      "projectName": "Distribution Digitization",
-      "value": "Strategic Partnership",
-      "source": "The Akshaya Patra Foundation"
+      "projectName": "National Logistics Infrastructure Expansion",
+      "value": "Undisclosed",
+      "source": "Annual Report 2024-25"
     }
   ],
   "latestUpdates": [
     {
-      "updateText": "Launch of proprietary mapping platform to enhance logistics precision.",
-      "source": "Corporate Press"
+      "updateText": "Achieved first full year of profitability in FY25, shifting focus to operational efficiency and asset optimization.",
+      "source": "Corporate Financial Filings"
     }
   ],
   "twitterAnalysis": {
-    "sentimentScore": 75,
-    "trend": "neutral",
+    "sentimentScore": 35,
+    "trend": "negative",
     "recentMentions": [
-      "Focus on logistics tech stack",
-      "Stock market performance analysis",
-      "Operational efficiency discussions"
+      "Concerns over shipment reliability",
+      "Public criticism of last-mile delivery accountability",
+      "Positive feedback on internal employee skill development"
     ]
-  }
+  },
+  "keyDecisionMakers": [
+    "Sahil Barua (CEO)",
+    "Kapil Bharati (CTO)",
+    "Kumar Sunny Raja (CPO)",
+    "Rahul Tiwari (Procurement Manager)"
+  ],
+  "vendorEcosystem": [
+    {
+      "name": "Internal Procurement Office",
+      "relation": "Centralized decision-making for all facility and infrastructure vendors"
+    }
+  ],
+  "upcomingProjects": [
+    "Expansion of automated sorting centers",
+    "Regional hub infrastructure upgrades",
+    "Short-haul parcel network scaling"
+  ]
 }
