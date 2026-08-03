@@ -147,7 +147,7 @@ export default function Dashboard() {
                         </div>
                       </td>
                       <td className="px-lg py-md">
-                        <span className={`px-md py-1 rounded-xl text-[11px] font-bold uppercase tracking-wider ${prospect.aiScore > 90 ? 'bg-alert-coral/10 text-alert-coral' : prospect.aiScore > 80 ? 'bg-warning-orange/10 text-warning-orange' : 'bg-outline-variant/30 text-on-surface-variant'}`}>
+                        <span className={`px-md py-1 rounded-xl text-[11px] font-bold uppercase tracking-wider ${prospect.aiScore > 90 ? 'bg-primary/10 text-primary' : prospect.aiScore > 80 ? 'bg-secondary/10 text-secondary' : 'bg-outline-variant/30 text-on-surface-variant'}`}>
                           {prospect.aiScore > 90 ? 'High' : prospect.aiScore > 80 ? 'Medium' : 'Low'}
                         </span>
                       </td>
@@ -164,25 +164,25 @@ export default function Dashboard() {
           <div className="bg-surface-container-lowest rounded-xl border border-powder-sky shadow-sm flex flex-col h-full overflow-hidden">
             <div className="px-lg py-md border-b border-powder-sky flex justify-between items-center bg-surface-container-lowest">
               <h3 className="font-headline-md text-ink-dark">Priority Alerts</h3>
-              <span className="bg-alert-coral text-on-error text-[10px] px-2 py-1 rounded-full font-bold">4 NEW</span>
+              <span className="bg-primary text-on-primary text-[10px] px-2 py-1 rounded-full font-bold">2 NEW</span>
             </div>
             <div className="p-lg space-y-md flex-1 overflow-y-auto max-h-110">
               {/* Alert 1 */}
-              <div className="p-md rounded-lg bg-alert-coral/5 border-l-4 border-alert-coral flex gap-md group hover:bg-alert-coral/10 transition-all cursor-pointer">
+              <div className="p-md rounded-lg bg-primary/5 border-l-4 border-primary flex gap-md group hover:bg-primary/10 transition-all cursor-pointer">
                 <div className="shrink-0">
-                  <span className="material-symbols-outlined text-alert-coral" style={{ fontVariationSettings: "'FILL' 1" }}>warning</span>
+                  <span className="material-symbols-outlined text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>warning</span>
                 </div>
                 <div className="flex-1">
-                  <p className="font-body-md font-bold text-ink-dark">Titanium Dioxide Surcharge</p>
-                  <p className="font-body-sm text-on-surface-variant mt-xs">Market price hike detected: +4.2% expected next week.</p>
+                  <p className="font-body-md font-bold text-ink-dark">New Warehouse Construction</p>
+                  <p className="font-body-sm text-on-surface-variant mt-xs">A new logistics center is under construction by delhivery</p>
                   <p className="text-[10px] text-outline mt-sm font-bold uppercase">2 hours ago</p>
                 </div>
               </div>
 
               {/* Alert 2 */}
-              <div className="p-md rounded-lg bg-warning-orange/5 border-l-4 border-warning-orange flex gap-md group hover:bg-warning-orange/10 transition-all cursor-pointer">
+              <div className="p-md rounded-lg bg-secondary/5 border-l-4 border-secondary flex gap-md group hover:bg-secondary/10 transition-all cursor-pointer">
                 <div className="shrink-0">
-                  <span className="material-symbols-outlined text-warning-orange" style={{ fontVariationSettings: "'FILL' 1" }}>event_busy</span>
+                  <span className="material-symbols-outlined text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>event_busy</span>
                 </div>
                 <div className="flex-1">
                   <p className="font-body-md font-bold text-ink-dark">RFQ Deadline Move</p>
@@ -222,20 +222,20 @@ export default function Dashboard() {
           {/* Insight 2 */}
           <div className="space-y-md border-x border-powder-sky px-xl">
             <div className="flex items-center gap-sm">
-              <span className="material-symbols-outlined text-warning-orange">analytics</span>
+              <span className="material-symbols-outlined text-secondary">analytics</span>
               <h4 className="font-body-md font-bold text-ink-dark">Competitor Movement</h4>
             </div>
-            <p className="font-body-sm text-on-surface-variant">Primary competitor 'Brand X' reduced turnaround time by 40%.</p>
+            <p className="font-body-sm text-on-surface-variant">Primary competitor 'Spectra Paints' reduced turnaround time by 40%.</p>
             <div className="bg-surface-container-low p-md rounded-lg border border-powder-sky/50">
               <p className="text-[12px] font-bold text-primary mb-xs uppercase">Strategy Pivot</p>
-              <p className="font-body-sm text-on-surface">Use Mascot.AI 'Auto-Spec' generator to lead speed delivery.</p>
+              <p className="font-body-sm text-on-surface">Use Mascot.AI to lead speed delivery.</p>
             </div>
           </div>
 
           {/* Insight 3 */}
           <div className="space-y-md">
             <div className="flex items-center gap-sm">
-              <span className="material-symbols-outlined text-alert-coral">radar</span>
+              <span className="material-symbols-outlined text-primary">radar</span>
               <h4 className="font-body-md font-bold text-ink-dark">Regional Growth Corridor</h4>
             </div>
             <p className="font-body-sm text-on-surface-variant">Predictive analysis suggests a cluster of high-value industrial projects.</p>
